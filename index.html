@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lichtblick — Die schönste Nachricht des Tages</title>
+<meta name="description" content="Lichtblick sammelt jeden Tag automatisch die positivste, verifizierte Nachricht des Tages aus vertrauenswürdigen Quellen — aus Wissenschaft, Umwelt, Gesundheit, Kultur und mehr. Ohne Finanz- oder Kapitalmarktmeldungen." />
+<meta property="og:title" content="Lichtblick — Die schönste Nachricht des Tages" />
+<meta property="og:description" content="Jeden Tag eine neue, verifizierte gute Nachricht. Automatisch kuratiert, archiviert für immer." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,600&f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./base.css" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="./index.html" aria-label="Lichtblick — Startseite">
+      <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="24" r="9" fill="currentColor"/>
+        <path d="M20 2v5M20 2l-3.5 4M20 2l3.5 4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6 24h3M31 24h3M9.5 12.5l2.2 2.2M28.5 12.5l-2.2 2.2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span class="brand__name">Lichtblick</span>
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="./index.html" aria-current="page"><span class="nav-label">Heute</span></a>
+      <a href="./archiv.html"><span class="nav-label">Archiv</span></a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Farbmodus wechseln"></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="wrap hero__content">
+      <span class="hero__eyebrow"><span class="dot"></span> Täglich neu · automatisch kuratiert</span>
+      <h1>Jeden Tag ein <em>Lichtblick.</em></h1>
+      <p class="lede">Eine sorgfältig ausgewählte, verifizierte gute Nachricht — jeden Tag neu, aus vertrauenswürdigen Quellen, ohne Finanz- oder Kapitalmarktmeldungen.</p>
+    </div>
+  </section>
+
+  <section class="today wrap" id="heute">
+    <article class="today-card" id="today-card" aria-live="polite">
+      <div class="today-card__visual" id="today-visual"></div>
+      <div class="today-card__body">
+        <div class="today-card__meta">
+          <span class="badge badge--positive"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 3.7 1.6 6 3.2 7.7C16.8 11.3 19 12.3 22 13c-3 .7-5.2 1.7-6.8 3.3C13.6 18 12.6 20.3 12 24c-.6-3.7-1.6-6-3.2-7.7C7.2 14.7 5 13.7 2 13c3-.7 5.2-1.7 6.8-3.3C10.4 8 11.4 5.7 12 2Z"/></svg> Positive Nachricht</span>
+          <span class="badge badge--category" id="today-category"></span>
+          <span class="badge" id="today-date"></span>
+        </div>
+        <h2 id="today-headline">Wird geladen …</h2>
+        <p class="summary" id="today-summary"></p>
+        <div class="why-positive">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.35-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.65-9.5 9-9.5 9Z"/></svg>
+          <p id="today-why"></p>
+        </div>
+        <div class="today-card__footer">
+          <span class="source-line">Quelle: <a id="today-source" href="#" target="_blank" rel="noopener noreferrer">—</a></span>
+          <div class="today-card__actions">
+            <span id="today-share"></span>
+            <a class="btn btn--primary" id="today-link" href="#" target="_blank" rel="noopener noreferrer">Original lesen</a>
+          </div>
+        </div>
+        <div id="today-votes"></div>
+      </div>
+    </article>
+  </section>
+
+  <section class="how">
+    <div class="wrap">
+      <div>
+        <h2>So entsteht Lichtblick</h2>
+        <p>Kein Redaktionsteam, keine Klicks nötig — nur ein täglicher, automatischer Ablauf, der ausschließlich auf geprüfte, etablierte Nachrichtenquellen zurückgreift.</p>
+      </div>
+      <div class="how-steps">
+        <div class="how-step">
+          <span class="how-step__num">1</span>
+          <div>
+            <h3>Sammeln</h3>
+            <p>Jeden Morgen werden aktuelle Meldungen aus Wissenschaft, Umwelt, Gesundheit, Gesellschaft, Kultur, Sport, Technik und Wirtschaft von verifizierten Portalen zusammengetragen.</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <span class="how-step__num">2</span>
+          <div>
+            <h3>Prüfen &amp; auswählen</h3>
+            <p>Finanz- und Kapitalmarktmeldungen werden ausgeschlossen. Aus den verbleibenden, gegengeprüften Meldungen wird die positivste des Tages ausgewählt.</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <span class="how-step__num">3</span>
+          <div>
+            <h3>Archivieren</h3>
+            <p>Die bisherige Nachricht wandert automatisch ins Archiv, die neue erscheint auf der Startseite — jeden Tag aufs Neue.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources wrap wrap--narrow">
+    <h2>Nur verifizierte Quellen</h2>
+    <p>Lichtblick verwendet ausschließlich etablierte, redaktionell geprüfte Nachrichtenportale — keine unbestätigten Quellen, keine Boulevardmeldungen.</p>
+    <div class="sources-grid">
+      <a class="source-chip" href="https://www.tagesschau.de" target="_blank" rel="noopener noreferrer">tagesschau.de</a>
+      <a class="source-chip" href="https://www.zdfheute.de" target="_blank" rel="noopener noreferrer">ZDFheute</a>
+      <a class="source-chip" href="https://www.dpa.com" target="_blank" rel="noopener noreferrer">dpa</a>
+      <a class="source-chip" href="https://www.reuters.com" target="_blank" rel="noopener noreferrer">Reuters</a>
+      <a class="source-chip" href="https://www.deutschlandfunk.de" target="_blank" rel="noopener noreferrer">Deutschlandfunk</a>
+      <a class="source-chip" href="https://www.spiegel.de" target="_blank" rel="noopener noreferrer">Der Spiegel</a>
+      <a class="source-chip" href="https://www.sueddeutsche.de" target="_blank" rel="noopener noreferrer">Süddeutsche Zeitung</a>
+      <a class="source-chip" href="https://www.zeit.de" target="_blank" rel="noopener noreferrer">ZEIT ONLINE</a>
+      <a class="source-chip" href="https://www.aerzteblatt.de" target="_blank" rel="noopener noreferrer">Ärzteblatt</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Lichtblick · Automatisch kuratiert, jeden Tag neu.</p>
+    <nav>
+      <a href="./index.html">Heute</a>
+      <a href="./archiv.html">Archiv</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  loadNews().then((data) => {
+    const c = data.current;
+    const visual = document.getElementById('today-visual');
+    visual.style.setProperty('--cat-color', catColor(c.category_key));
+    visual.innerHTML = CATEGORY_ICONS[c.category_key] || CATEGORY_ICONS.gesellschaft;
+
+    document.getElementById('today-category').textContent = c.category || CATEGORY_LABELS[c.category_key] || '';
+    document.getElementById('today-date').textContent = formatDate(c.date);
+    document.getElementById('today-headline').textContent = c.headline;
+    document.getElementById('today-summary').textContent = c.summary;
+    document.getElementById('today-why').textContent = c.why_positive;
+
+    const sourceLink = document.getElementById('today-source');
+    sourceLink.textContent = c.source_name;
+    sourceLink.href = safeUrl(c.source_url);
+
+    const readLink = document.getElementById('today-link');
+    readLink.href = safeUrl(c.source_url);
+
+    document.title = c.headline + ' — Lichtblick';
+
+    const shareMount = document.getElementById('today-share');
+    shareMount.innerHTML = shareButtonHtml(c.headline, './index.html', false);
+    initShareButtons(shareMount);
+
+    // Hinweis, falls die Tagesnachricht nicht von heute ist
+    // (z. B. wenn der morgendliche Update-Job noch läuft oder ausgefallen ist).
+    const age = daysSince(c.date);
+    const staleMount = document.getElementById('today-votes');
+    if (age >= 1) {
+      staleMount.innerHTML = '<p class="stale-note">' +
+        (age === 1
+          ? 'Die heutige Nachricht kommt in Kürze – hier ist noch der Lichtblick von gestern.'
+          : 'Diese Nachricht ist vom ' + escapeHtml(formatDateShort(c.date)) + '. Die nächste Aktualisierung folgt bald.') +
+        '</p>';
+    }
+  }).catch((e) => {
+    document.getElementById('today-headline').textContent = 'Die heutige Nachricht wird gerade vorbereitet.';
+    document.getElementById('today-summary').textContent = 'Bitte schau gleich noch einmal vorbei.';
+    console.error(e);
+  });
+</script>
+</body>
+</html>

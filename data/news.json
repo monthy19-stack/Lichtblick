@@ -1,0 +1,45 @@
+{
+  "site": {
+    "name": "Lichtblick",
+    "tagline": "Die schönste Nachricht des Tages",
+    "updated_at": "2026-09-11"
+  },
+  "current": {
+    "date": "2026-09-11",
+    "headline": "Deutsche Rakete „Spectrum“ erreicht erstmals den Orbit",
+    "summary": "Die vom bayerischen Start-up Isar Aerospace entwickelte Trägerrakete „Spectrum“ hat bei einem Testflug vom norwegischen Weltraumbahnhof Andøya aus erstmals den Erdorbit erreicht. Damit gelang einer privat entwickelten Rakete zum ersten Mal ein Flug vom europäischen Kontinent aus in die Erdumlaufbahn. An Bord befanden sich fünf kleine Satelliten sowie ein technologisches Experiment. Bundeskanzler Friedrich Merz sprach vom „Beginn einer neuen Ära“, das Forschungsministerium erklärte knapp: „Deutschland kann Raumfahrt“.",
+    "why_positive": "Der erfolgreiche Erststart zeigt, dass Europa auf dem Weg zu mehr technologischer Unabhängigkeit in der Raumfahrt ist, und stärkt Vertrauen in deutsche Innovationskraft und Forschung.",
+    "category": "Technologie & Raumfahrt",
+    "category_key": "technologie",
+    "source_name": "tagesschau.de",
+    "source_url": "https://www.tagesschau.de/wissen/isar-aerospace-rakete-102.html",
+    "published_at": "2026-09-05",
+    "added_at": "2026-09-11"
+  },
+  "archive": [
+    {
+      "date": "2026-09-10",
+      "headline": "Deutsche Basketballerinnen erreichen erstmals WM-Viertelfinale",
+      "summary": "Die deutsche Frauen-Basketballnationalmannschaft hat bei der Heim-Weltmeisterschaft in Berlin zum ersten Mal in ihrer Geschichte das WM-Viertelfinale erreicht. Mit einem klaren 94:56-Sieg gegen Südkorea sicherte sich das Team von Bundestrainer Olaf Lange den Platz unter den besten acht Mannschaften der Welt. Selbst NBA-Legende Dirk Nowitzki feierte den historischen Erfolg live in der Halle mit. Nun wartet im Viertelfinale Europameister Belgien, gegen den Deutschland bei Olympia 2024 bereits einmal gewinnen konnte.",
+      "why_positive": "Ein historischer Meilenstein für den deutschen Frauen-Basketball, der zusammen mit dem Rekord-Zuschauerinteresse bei der Heim-WM zeigt, wie sehr der Sport in Deutschland gerade aufblüht.",
+      "category": "Sport",
+      "category_key": "sport",
+      "source_name": "zdfheute.de",
+      "source_url": "https://www.zdfheute.de/sport/basketball-wm-frauen-deutschland-suedkorea-100.html",
+      "published_at": "2026-09-09",
+      "added_at": "2026-09-10"
+    },
+    {
+      "date": "2026-09-09",
+      "headline": "Sonnenenergie überholt erstmals die Kohlekraft in China",
+      "summary": "Ende Juli 2026 übertraf die installierte Leistung der Photovoltaikanlagen in China erstmals die der Kohlekraftwerke: 1.286 Gigawatt Solarleistung stehen 1.285 Gigawatt Kohleleistung gegenüber. Damit macht Solarenergie inzwischen 31,5 Prozent der gesamten installierten Stromerzeugungskapazität des Landes aus – ein historischer Wendepunkt für den weltweit größten Energieverbraucher.",
+      "why_positive": "Der bevölkerungsreichste Industriestaat der Erde erzeugt heute mehr Strom aus der Sonne als aus Kohle – ein Meilenstein für die globale Energiewende.",
+      "category": "Wirtschaft & Klima",
+      "category_key": "wirtschaft",
+      "source_name": "tagesschau.de",
+      "source_url": "https://www.tagesschau.de/wirtschaft/energie/china-stromquelle-solar-kohle-100.html",
+      "published_at": "2026-09-01",
+      "added_at": "2026-09-09"
+    }
+  ]
+}
