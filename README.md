@@ -1,18 +1,18 @@
 # Lichtblick – Die schönste Nachricht des Tages
 
-Statische Webseite (GitHub Pages). Jeden Morgen um ca. 6:00 Uhr (deutsche Zeit) sucht ein
-GitHub-Actions-Job per KI mit Websuche eine aktuelle positive Nachricht, schiebt die vorherige
-ins Archiv und veröffentlicht die Seite neu.
+Statische Webseite (GitHub Pages) mit einer neuen positiven Nachricht pro Tag.
 
-## Einrichtung (einmalig)
+## So funktioniert das Update
 
-1. **API-Schlüssel hinterlegen:** Settings → Secrets and variables → Actions → *New repository secret*
-   - Name `ANTHROPIC_API_KEY` (Claude) **oder** `PERPLEXITY_API_KEY` (Perplexity), Wert = dein Schlüssel.
-2. **GitHub Pages einschalten:** Settings → Pages → *Source*: **GitHub Actions**.
-3. **Ersten Lauf starten:** Actions → „Tägliche Nachricht & Veröffentlichung“ → *Run workflow*
-   (Häkchen „force“ setzen, damit sofort eine neue Nachricht geholt wird).
+Jeden Morgen gegen 6 Uhr recherchiert eine geplante Claude-Aufgabe eine aktuelle positive
+Nachricht, schreibt sie in eine JSON-Datei und trägt sie mit
 
-Die Seite liegt danach unter `https://<benutzername>.github.io/Lichtblick/`.
+    python3 scripts/update_news.py --from-file neu.json
+
+in `data/news.json` ein (die bisherige wandert ins Archiv). Der Push auf `main` löst
+GitHub Actions aus, das die Seite auf GitHub Pages veröffentlicht.
+
+Einmalig nötig: Settings → Pages → *Source*: **GitHub Actions**.
 
 ## Dateien
 
@@ -21,15 +21,11 @@ Die Seite liegt danach unter `https://<benutzername>.github.io/Lichtblick/`.
 | `index.html`, `archiv.html`, `app.js`, `*.css` | Die Webseite |
 | `data/news.json` | Aktuelle Nachricht + Archiv (wird automatisch geändert) |
 | `scripts/update_news.py` | Sucht und prüft die neue Nachricht |
-| `.github/workflows/daily-news.yml` | Zeitplan und Veröffentlichung |
+| `.github/workflows/daily-news.yml` | Veröffentlichung auf GitHub Pages |
 
-## Optionale Einstellungen
+## Optional: vollautomatisch per API
 
-Unter Settings → Secrets and variables → Actions → *Variables*:
+`scripts/update_news.py` ohne `--from-file` sucht selbst per Claude- oder Perplexity-API
+(Secret `ANTHROPIC_API_KEY` bzw. `PERPLEXITY_API_KEY`). Wird aktuell nicht genutzt.
 
-- `LICHTBLICK_PROVIDER` – `claude` oder `perplexity`, falls beide Schlüssel hinterlegt sind
-- `ANTHROPIC_MODEL` – Standard `claude-sonnet-5-5`
-- `PERPLEXITY_MODEL` – Standard `sonar-pro`
-
-Eine falsche Nachricht korrigieren: `data/news.json` direkt auf GitHub bearbeiten, oder den
-Workflow mit „force“ erneut starten.
+Eine falsche Nachricht korrigieren: `data/news.json` direkt auf GitHub bearbeiten.

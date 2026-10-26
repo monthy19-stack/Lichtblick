@@ -268,12 +268,33 @@ def main():
     data = json.loads(NEWS_FILE.read_text(encoding="utf-8"))
     current = data.get("current") or {}
 
+    if "--force" in sys.argv:
+        force = True
     if not force and current.get("date") == today:
         log(f"Heute ({today}) bereits aktualisiert – nichts zu tun.")
         return 0
-    if not force and now.hour < PUBLISH_HOUR:
+    if not force and now.hour < PUBLISH_HOUR and "--from-file" not in sys.argv:
         log(f"Erst {now:%H:%M} Uhr – Update ab {PUBLISH_HOUR}:00 Uhr. Nichts zu tun.")
         return 0
+
+    # Modus "--from-file datei.json": Die Nachricht wurde bereits recherchiert
+    # (z. B. von der täglichen Claude-Aufgabe) – nur prüfen und eintragen.
+    from_file = None
+    if "--from-file" in sys.argv:
+        from_file = Path(sys.argv[sys.argv.index("--from-file") + 1])
+
+    archive = data.get("archive") or []
+    all_items = ([current] if current else []) + archive
+    known_urls = {norm_url(i.get("source_url")) for i in all_items if i.get("source_url")}
+
+    if from_file:
+        raw = extract_json(from_file.read_text(encoding="utf-8"))
+        try:
+            item = validate(raw, today, known_urls, set())
+        except Exception as e:  # noqa: BLE001
+            log(f"FEHLER: Nachricht ungültig: {e}")
+            return 2
+        return save(data, current, archive, item, today)
 
     name, ask = pick_provider()
     if not ask:
@@ -282,9 +303,6 @@ def main():
         return 1
     log(f"Suche Nachricht für {today} mit {name} …")
 
-    archive = data.get("archive") or []
-    all_items = ([current] if current else []) + archive
-    known_urls = {norm_url(i.get("source_url")) for i in all_items if i.get("source_url")}
     recent = all_items[:30]
 
     hint = ""
@@ -302,6 +320,10 @@ def main():
         log("FEHLER: Keine gültige Nachricht gefunden. Die bisherige bleibt stehen.")
         return 1
 
+    return save(data, current, archive, item, today)
+
+
+def save(data, current, archive, item, today):
     item = {"date": today, **item, "added_at": today}
 
     if current and current.get("date") and current.get("date") != today:

@@ -1,66 +1,30 @@
-name: Tägliche Nachricht & Veröffentlichung
+name: Seite veröffentlichen
 
+# Jede Änderung auf main (z. B. die tägliche neue Nachricht in data/news.json)
+# wird automatisch auf GitHub Pages veröffentlicht.
+# Manuell starten: Actions → "Seite veröffentlichen" → "Run workflow".
 on:
-  # 6:00 Uhr deutscher Zeit: 04:00 UTC im Sommer, 05:00 UTC im Winter.
-  # Beide Läufe starten; das Skript führt das Update nur einmal pro Tag aus.
-  schedule:
-    - cron: "7 4 * * *"
-    - cron: "7 5 * * *"
-    # Sicherheitsnetz, falls ein Lauf ausfällt
-    - cron: "37 8 * * *"
-  # Von Hand starten: Actions → diesen Workflow → "Run workflow"
-  workflow_dispatch:
-    inputs:
-      force:
-        description: "Auch dann neue Nachricht holen, wenn heute schon aktualisiert wurde"
-        type: boolean
-        default: false
-  # Bei Änderungen an der Seite neu veröffentlichen
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: lichtblick
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: Nachricht des Tages holen
-        if: github.event_name != 'push'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
-          PERPLEXITY_MODEL: ${{ vars.PERPLEXITY_MODEL }}
-          LICHTBLICK_PROVIDER: ${{ vars.LICHTBLICK_PROVIDER }}
-          LICHTBLICK_FORCE: ${{ inputs.force }}
-        run: python3 scripts/update_news.py
-
-      - name: Änderung speichern
-        if: github.event_name != 'push'
-        run: |
-          if git diff --quiet -- data/news.json; then
-            echo "Keine neue Nachricht."
-          else
-            git config user.name "lichtblick-bot"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/news.json
-            git commit -m "Nachricht des Tages: $(date +%F)"
-            git push
-          fi
-
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
