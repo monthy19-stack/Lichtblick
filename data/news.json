@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-09-11"
+    "updated_at": "2026-10-26"
   },
   "current": {
-    "date": "2026-09-11",
-    "headline": "Deutsche Rakete „Spectrum“ erreicht erstmals den Orbit",
-    "summary": "Die vom bayerischen Start-up Isar Aerospace entwickelte Trägerrakete „Spectrum“ hat bei einem Testflug vom norwegischen Weltraumbahnhof Andøya aus erstmals den Erdorbit erreicht. Damit gelang einer privat entwickelten Rakete zum ersten Mal ein Flug vom europäischen Kontinent aus in die Erdumlaufbahn. An Bord befanden sich fünf kleine Satelliten sowie ein technologisches Experiment. Bundeskanzler Friedrich Merz sprach vom „Beginn einer neuen Ära“, das Forschungsministerium erklärte knapp: „Deutschland kann Raumfahrt“.",
-    "why_positive": "Der erfolgreiche Erststart zeigt, dass Europa auf dem Weg zu mehr technologischer Unabhängigkeit in der Raumfahrt ist, und stärkt Vertrauen in deutsche Innovationskraft und Forschung.",
-    "category": "Technologie & Raumfahrt",
-    "category_key": "technologie",
-    "source_name": "tagesschau.de",
-    "source_url": "https://www.tagesschau.de/wissen/isar-aerospace-rakete-102.html",
-    "published_at": "2026-09-05",
-    "added_at": "2026-09-11"
+    "date": "2026-10-26",
+    "headline": "Abholzung im Amazonas so niedrig wie nie seit Beginn der Messungen",
+    "summary": "In Brasilien ist die Abholzung des Amazonas-Regenwalds auf den niedrigsten Stand seit Beginn der Aufzeichnungen 1988 gefallen. Zwischen August 2025 und Juli 2026 wurden laut offiziellen Satellitendaten 3.335 Quadratkilometer Wald gerodet – 41,8 Prozent weniger als im Jahr zuvor. Seit 2023 ist die Entwaldung damit um rund 71 Prozent zurückgegangen. Möglich wurde das unter anderem durch einen wiederbelebten Aktionsplan gegen illegale Rodung, Sanktionen bei per Satellit entdeckten Verstößen und mehr Geld für Gemeinden, die den Waldverlust senken. Fachleute warnen allerdings, dass Brände, Dürre und Holzeinschlag den Wald weiterhin bedrohen.",
+    "why_positive": "Der Amazonas ist einer der wichtigsten Kohlenstoffspeicher der Erde – dass seine Zerstörung so stark gebremst wurde, zeigt, dass entschlossener Waldschutz wirkt.",
+    "category": "Umwelt & Klima",
+    "category_key": "umwelt",
+    "source_name": "de.euronews.com",
+    "source_url": "https://de.euronews.com/2026/10/19/brasilien-abholzung-im-amazonas-auf-rekordtief-el-nino-und-wahl-gefahrden-fortschritt",
+    "published_at": "2026-10-19",
+    "added_at": "2026-10-26"
   },
   "archive": [
+    {
+      "date": "2026-09-11",
+      "headline": "Deutsche Rakete „Spectrum“ erreicht erstmals den Orbit",
+      "summary": "Die vom bayerischen Start-up Isar Aerospace entwickelte Trägerrakete „Spectrum“ hat bei einem Testflug vom norwegischen Weltraumbahnhof Andøya aus erstmals den Erdorbit erreicht. Damit gelang einer privat entwickelten Rakete zum ersten Mal ein Flug vom europäischen Kontinent aus in die Erdumlaufbahn. An Bord befanden sich fünf kleine Satelliten sowie ein technologisches Experiment. Bundeskanzler Friedrich Merz sprach vom „Beginn einer neuen Ära“, das Forschungsministerium erklärte knapp: „Deutschland kann Raumfahrt“.",
+      "why_positive": "Der erfolgreiche Erststart zeigt, dass Europa auf dem Weg zu mehr technologischer Unabhängigkeit in der Raumfahrt ist, und stärkt Vertrauen in deutsche Innovationskraft und Forschung.",
+      "category": "Technologie & Raumfahrt",
+      "category_key": "technologie",
+      "source_name": "tagesschau.de",
+      "source_url": "https://www.tagesschau.de/wissen/isar-aerospace-rakete-102.html",
+      "published_at": "2026-09-05",
+      "added_at": "2026-09-11"
+    },
     {
       "date": "2026-09-10",
       "headline": "Deutsche Basketballerinnen erreichen erstmals WM-Viertelfinale",
