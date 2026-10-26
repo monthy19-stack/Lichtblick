@@ -66,6 +66,7 @@
           </div>
         </div>
         <div id="today-votes"></div>
+        <div id="today-stale"></div>
       </div>
     </article>
   </section>
@@ -158,10 +159,14 @@
     shareMount.innerHTML = shareButtonHtml(c.headline, './index.html', false);
     initShareButtons(shareMount);
 
+    const voteMount = document.getElementById('today-votes');
+    voteMount.innerHTML = voteWidgetHtml(c);
+    hydrateVoteWidgets(voteMount);
+
     // Hinweis, falls die Tagesnachricht nicht von heute ist
     // (z. B. wenn der morgendliche Update-Job noch läuft oder ausgefallen ist).
     const age = daysSince(c.date);
-    const staleMount = document.getElementById('today-votes');
+    const staleMount = document.getElementById('today-stale');
     if (age >= 1) {
       staleMount.innerHTML = '<p class="stale-note">' +
         (age === 1

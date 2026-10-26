@@ -70,6 +70,12 @@
     return `<span class="rank-badge">#${rank}</span>`;
   }
 
+  function likesHtml(item) {
+    if (!VOTES_CACHE) return '';
+    const n = upCount(VOTES_CACHE, item.date);
+    return n ? ` · <span class="archive-likes">👍 ${formatCount(n)}</span>` : '';
+  }
+
   function cardTemplate(item, rank) {
     const icon = CATEGORY_ICONS[item.category_key] || CATEGORY_ICONS.gesellschaft;
     const label = escapeHtml(item.category || CATEGORY_LABELS[item.category_key] || '');
@@ -81,7 +87,7 @@
           <h3>${escapeHtml(item.headline)}</h3>
           <p>${escapeHtml(item.summary)}</p>
           <div class="archive-card__footer">
-            <span class="source-line">${escapeHtml(item.source_name)}</span>
+            <span class="source-line">${escapeHtml(item.source_name)}${likesHtml(item)}</span>
             <div class="archive-card__actions">
               ${shareButtonHtml(item.headline, './archiv.html', true)}
               <a href="${safeUrl(item.source_url)}" target="_blank" rel="noopener noreferrer">Original lesen →</a>
@@ -122,10 +128,15 @@
 
   function renderSortOptions(items) {
     const select = document.getElementById('sort-select');
+    const years = Array.from(new Set(items.map((i) => (i.date || '').slice(0, 4)).filter(Boolean))).sort().reverse();
     const opts = [
       { value: 'chrono', label: 'Neueste zuerst' },
       { value: 'oldest', label: 'Älteste zuerst' },
     ];
+    if (votesEnabled()) {
+      opts.push({ value: 'top', label: 'Beliebteste zuerst' });
+      years.forEach((y) => opts.push({ value: `top5:${y}`, label: `Top 5 des Jahres ${y}` }));
+    }
     select.innerHTML = opts.map((o) => `<option value="${o.value}">${escapeHtml(o.label)}</option>`).join('');
     select.value = activeSort;
     select.addEventListener('change', () => {
@@ -134,18 +145,42 @@
     });
   }
 
+  // Sortiert nach Beliebtheit: Daumen hoch minus Daumen runter,
+  // bei Gleichstand mehr Daumen hoch, dann neuere zuerst.
+  function byPopularity(votes) {
+    return (a, b) =>
+      netScore(votes, b.date) - netScore(votes, a.date) ||
+      upCount(votes, b.date) - upCount(votes, a.date) ||
+      (a.date < b.date ? 1 : -1);
+  }
+
   async function getDisplayItems() {
     const items = ALL_ITEMS.slice().sort((a, b) => (a.date < b.date ? 1 : -1));
-    return activeSort === 'oldest' ? items.reverse() : items;
+    if (activeSort === 'oldest') return items.reverse();
+    if (activeSort === 'top') {
+      const votes = await fetchAllVotes();
+      return items.sort(byPopularity(votes));
+    }
+    if (activeSort.startsWith('top5:')) {
+      const year = activeSort.split(':')[1];
+      const votes = await fetchAllVotes();
+      return items
+        .filter((i) => (i.date || '').startsWith(year) && upCount(votes, i.date) > 0)
+        .sort(byPopularity(votes))
+        .slice(0, 5);
+    }
+    return items;
   }
 
   async function renderGrid() {
     const grid = document.getElementById('archive-grid');
     let items = await getDisplayItems();
-    const isRanked = false;
+    const isRanked = activeSort === 'top' || activeSort.startsWith('top5:');
     if (activeFilter !== 'alle') items = items.filter((i) => i.category_key === activeFilter);
     if (items.length === 0) {
-      const emptyMsg = 'Noch keine Einträge in dieser Kategorie.';
+      const emptyMsg = activeSort.startsWith('top5:')
+        ? 'Für dieses Jahr liegen noch keine Bewertungen vor.'
+        : 'Noch keine Einträge in dieser Kategorie.';
       grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="4.5" rx="1"/><path d="M4.5 8.5V19a1.5 1.5 0 0 0 1.5 1.5h12A1.5 1.5 0 0 0 19.5 19V8.5"/></svg>
         <p>${escapeHtml(emptyMsg)}</p>
@@ -162,6 +197,7 @@
     renderFilters(ALL_ITEMS);
     renderSortOptions(ALL_ITEMS);
     renderGrid();
+    if (votesEnabled()) fetchAllVotes().then(() => renderGrid());
   }).catch((e) => {
     document.getElementById('archive-grid').innerHTML =
       '<div class="empty-state" style="grid-column:1/-1"><p>Das Archiv konnte nicht geladen werden.</p></div>';

@@ -147,6 +147,135 @@ function formatCount(n) {
   });
 })();
 
+// ---------- Abstimmung (Daumen hoch/runter) ----------
+// Die Stimmen liegen in einer Firebase Realtime Database (kostenloser Tarif).
+// Struktur: /votes/<YYYY-MM-DD> = { up: Zahl, down: Zahl }
+// Die eigene Stimme wird im Browser gemerkt, damit jeder pro Nachricht nur
+// einmal abstimmt. Ist keine Datenbank eingetragen, bleibt die Abstimmung aus.
+const VOTES_DB_URL = ''; // z. B. 'https://lichtblick-xxxx-default-rtdb.europe-west1.firebasedatabase.app'
+
+let VOTES_CACHE = null;
+let VOTES_PROMISE = null;
+
+function votesEnabled() {
+  return /^https:\/\/[a-z0-9.-]+\.(firebaseio\.com|firebasedatabase\.app)\/?$/i.test(VOTES_DB_URL);
+}
+function votesBase() {
+  return VOTES_DB_URL.replace(/\/$/, '');
+}
+
+function getMyVote(date) {
+  try { return localStorage.getItem('lichtblick-vote-' + date); } catch (e) { return null; }
+}
+function setMyVote(date, vote) {
+  try {
+    if (vote) localStorage.setItem('lichtblick-vote-' + date, vote);
+    else localStorage.removeItem('lichtblick-vote-' + date);
+  } catch (e) {}
+}
+
+async function fetchAllVotes(force) {
+  if (!votesEnabled()) return {};
+  if (!force && VOTES_PROMISE) return VOTES_PROMISE;
+  VOTES_PROMISE = (async () => {
+    try {
+      const res = await fetch(`${votesBase()}/votes.json`, { cache: 'no-store' });
+      if (!res.ok) throw new Error('votes not ok');
+      VOTES_CACHE = (await res.json()) || {};
+    } catch (e) {
+      VOTES_CACHE = VOTES_CACHE || {};
+    }
+    return VOTES_CACHE;
+  })();
+  return VOTES_PROMISE;
+}
+
+// Zählt einen Wert in der Datenbank serverseitig um +1 oder -1 hoch.
+async function bumpVote(date, field, delta) {
+  const res = await fetch(`${votesBase()}/votes/${encodeURIComponent(date)}/${field}.json`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ '.sv': { increment: delta } }),
+  });
+  if (!res.ok) throw new Error('vote failed');
+  return res.json();
+}
+
+function voteWidgetHtml(item) {
+  if (!votesEnabled()) return '';
+  const date = escapeHtml(item.date || '');
+  return `
+    <div class="vote-widget" data-vote-widget data-date="${date}">
+      <span class="vote-widget__label">War das ein Lichtblick für dich?</span>
+      <div class="vote-buttons">
+        <button type="button" class="vote-btn vote-btn--up" data-vote-btn="up" aria-pressed="false" aria-label="Gefällt mir">
+          ${ICON_THUMB_UP}<span class="vote-count" data-vote-count="up">0</span>
+        </button>
+        <button type="button" class="vote-btn vote-btn--down" data-vote-btn="down" aria-pressed="false" aria-label="Gefällt mir nicht">
+          ${ICON_THUMB_DOWN}<span class="vote-count" data-vote-count="down">0</span>
+        </button>
+      </div>
+    </div>`;
+}
+
+function paintVoteWidget(widget, entry) {
+  const data = entry || {};
+  const my = getMyVote(widget.dataset.date);
+  const set = (sel, v) => { const el = widget.querySelector(sel); if (el) el.textContent = formatCount(v); };
+  set('[data-vote-count="up"]', Math.max(0, data.up || 0));
+  set('[data-vote-count="down"]', Math.max(0, data.down || 0));
+  const upBtn = widget.querySelector('[data-vote-btn="up"]');
+  const downBtn = widget.querySelector('[data-vote-btn="down"]');
+  if (upBtn) upBtn.setAttribute('aria-pressed', String(my === 'up'));
+  if (downBtn) downBtn.setAttribute('aria-pressed', String(my === 'down'));
+}
+
+function wireVoteWidget(widget) {
+  if (!widget || widget.dataset.wired) return;
+  widget.dataset.wired = '1';
+  const date = widget.dataset.date;
+  widget.querySelectorAll('[data-vote-btn]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const want = btn.dataset.voteBtn;
+      const prev = getMyVote(date);
+      const next = prev === want ? null : want; // nochmal klicken = Stimme zurücknehmen
+      const buttons = widget.querySelectorAll('[data-vote-btn]');
+      buttons.forEach((b) => (b.disabled = true));
+      const entry = Object.assign({ up: 0, down: 0 }, (VOTES_CACHE || {})[date]);
+      try {
+        if (prev) { await bumpVote(date, prev, -1); entry[prev] = Math.max(0, (entry[prev] || 0) - 1); }
+        if (next) { await bumpVote(date, next, 1); entry[next] = (entry[next] || 0) + 1; }
+        setMyVote(date, next);
+        if (VOTES_CACHE) VOTES_CACHE[date] = entry;
+        paintVoteWidget(widget, entry);
+      } catch (e) {
+        // Abstimmung ist ein Extra – Fehler dürfen die Seite nicht stören.
+      } finally {
+        buttons.forEach((b) => (b.disabled = false));
+      }
+    });
+  });
+}
+
+async function hydrateVoteWidgets(root) {
+  const widgets = Array.from(root.querySelectorAll('[data-vote-widget]'));
+  if (!widgets.length) return;
+  const votes = await fetchAllVotes();
+  widgets.forEach((w) => {
+    wireVoteWidget(w);
+    paintVoteWidget(w, votes[w.dataset.date]);
+  });
+}
+
+function netScore(votesMap, date) {
+  const v = votesMap && votesMap[date];
+  return v ? Math.max(0, v.up || 0) - Math.max(0, v.down || 0) : 0;
+}
+function upCount(votesMap, date) {
+  const v = votesMap && votesMap[date];
+  return v ? Math.max(0, v.up || 0) : 0;
+}
+
 // ============ SHARE MENU ============
 // Builds a share button + popover for a piece of content. `targetPath` is the
 // page the share should point back to ('index.html' or 'archiv.html'); the
