@@ -152,7 +152,7 @@ function formatCount(n) {
 // Struktur: /votes/<YYYY-MM-DD> = { up: Zahl, down: Zahl }
 // Die eigene Stimme wird im Browser gemerkt, damit jeder pro Nachricht nur
 // einmal abstimmt. Ist keine Datenbank eingetragen, bleibt die Abstimmung aus.
-const VOTES_DB_URL = ''; // z. B. 'https://lichtblick-xxxx-default-rtdb.europe-west1.firebasedatabase.app'
+const VOTES_DB_URL = 'https://lichtblick-3106a-default-rtdb.europe-west1.firebasedatabase.app';
 
 let VOTES_CACHE = null;
 let VOTES_PROMISE = null;
