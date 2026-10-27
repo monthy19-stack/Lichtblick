@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-10-26"
+    "updated_at": "2026-10-27"
   },
   "current": {
-    "date": "2026-10-26",
-    "headline": "Abholzung im Amazonas so niedrig wie nie seit Beginn der Messungen",
-    "summary": "In Brasilien ist die Abholzung des Amazonas-Regenwalds auf den niedrigsten Stand seit Beginn der Aufzeichnungen 1988 gefallen. Zwischen August 2025 und Juli 2026 wurden laut offiziellen Satellitendaten 3.335 Quadratkilometer Wald gerodet – 41,8 Prozent weniger als im Jahr zuvor. Seit 2023 ist die Entwaldung damit um rund 71 Prozent zurückgegangen. Möglich wurde das unter anderem durch einen wiederbelebten Aktionsplan gegen illegale Rodung, Sanktionen bei per Satellit entdeckten Verstößen und mehr Geld für Gemeinden, die den Waldverlust senken. Fachleute warnen allerdings, dass Brände, Dürre und Holzeinschlag den Wald weiterhin bedrohen.",
-    "why_positive": "Der Amazonas ist einer der wichtigsten Kohlenstoffspeicher der Erde – dass seine Zerstörung so stark gebremst wurde, zeigt, dass entschlossener Waldschutz wirkt.",
-    "category": "Umwelt & Klima",
-    "category_key": "umwelt",
-    "source_name": "de.euronews.com",
-    "source_url": "https://de.euronews.com/2026/10/19/brasilien-abholzung-im-amazonas-auf-rekordtief-el-nino-und-wahl-gefahrden-fortschritt",
-    "published_at": "2026-10-19",
-    "added_at": "2026-10-26"
+    "date": "2026-10-27",
+    "headline": "Kasuare im Zoo Adelaide legen erstmals seit 34 Jahren wieder Eier",
+    "summary": "Im Zoo von Adelaide in Südaustralien hat das Helmkasuar-Weibchen Martina zwei leuchtend grüne Eier gelegt – die ersten dort seit 34 Jahren. Die letzten Kasuar-Küken schlüpften in dem Zoo 1992. Martina und das Männchen Jeffrey waren im Rahmen eines koordinierten Zuchtprogramms erst im August zusammengebracht worden und verstanden sich schon am ersten Tag. Sind die Eier befruchtet, könnten nach etwa 50 Tagen Küken schlüpfen; brüten und die Jungen behüten wird dann Jeffrey, denn bei Kasuaren ist das Aufgabe des Vaters.",
+    "why_positive": "Die Bestände der urtümlichen Laufvögel gehen in freier Wildbahn zurück – ein erfolgreicher Zuchtnachwuchs wäre ein schöner Beitrag zu ihrem Erhalt.",
+    "category": "Tiere & Natur",
+    "category_key": "tiere",
+    "source_name": "tagesspiegel.de",
+    "source_url": "https://www.tagesspiegel.de/wissen/was-schlupft-aus-diesen-eiern-australischer-zoo-erwartet-ersten-nachwuchs-seit-jahrzehnten-16192682.html",
+    "published_at": "2026-10-24",
+    "added_at": "2026-10-27"
   },
   "archive": [
+    {
+      "date": "2026-10-26",
+      "headline": "Abholzung im Amazonas so niedrig wie nie seit Beginn der Messungen",
+      "summary": "In Brasilien ist die Abholzung des Amazonas-Regenwalds auf den niedrigsten Stand seit Beginn der Aufzeichnungen 1988 gefallen. Zwischen August 2025 und Juli 2026 wurden laut offiziellen Satellitendaten 3.335 Quadratkilometer Wald gerodet – 41,8 Prozent weniger als im Jahr zuvor. Seit 2023 ist die Entwaldung damit um rund 71 Prozent zurückgegangen. Möglich wurde das unter anderem durch einen wiederbelebten Aktionsplan gegen illegale Rodung, Sanktionen bei per Satellit entdeckten Verstößen und mehr Geld für Gemeinden, die den Waldverlust senken. Fachleute warnen allerdings, dass Brände, Dürre und Holzeinschlag den Wald weiterhin bedrohen.",
+      "why_positive": "Der Amazonas ist einer der wichtigsten Kohlenstoffspeicher der Erde – dass seine Zerstörung so stark gebremst wurde, zeigt, dass entschlossener Waldschutz wirkt.",
+      "category": "Umwelt & Klima",
+      "category_key": "umwelt",
+      "source_name": "de.euronews.com",
+      "source_url": "https://de.euronews.com/2026/10/19/brasilien-abholzung-im-amazonas-auf-rekordtief-el-nino-und-wahl-gefahrden-fortschritt",
+      "published_at": "2026-10-19",
+      "added_at": "2026-10-26"
+    },
     {
       "date": "2026-09-11",
       "headline": "Deutsche Rakete „Spectrum“ erreicht erstmals den Orbit",
