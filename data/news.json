@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-10-27"
+    "updated_at": "2026-10-28"
   },
   "current": {
-    "date": "2026-10-27",
-    "headline": "Kasuare im Zoo Adelaide legen erstmals seit 34 Jahren wieder Eier",
-    "summary": "Im Zoo von Adelaide in Südaustralien hat das Helmkasuar-Weibchen Martina zwei leuchtend grüne Eier gelegt – die ersten dort seit 34 Jahren. Die letzten Kasuar-Küken schlüpften in dem Zoo 1992. Martina und das Männchen Jeffrey waren im Rahmen eines koordinierten Zuchtprogramms erst im August zusammengebracht worden und verstanden sich schon am ersten Tag. Sind die Eier befruchtet, könnten nach etwa 50 Tagen Küken schlüpfen; brüten und die Jungen behüten wird dann Jeffrey, denn bei Kasuaren ist das Aufgabe des Vaters.",
-    "why_positive": "Die Bestände der urtümlichen Laufvögel gehen in freier Wildbahn zurück – ein erfolgreicher Zuchtnachwuchs wäre ein schöner Beitrag zu ihrem Erhalt.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
-    "source_name": "tagesspiegel.de",
-    "source_url": "https://www.tagesspiegel.de/wissen/was-schlupft-aus-diesen-eiern-australischer-zoo-erwartet-ersten-nachwuchs-seit-jahrzehnten-16192682.html",
-    "published_at": "2026-10-24",
-    "added_at": "2026-10-27"
+    "date": "2026-10-28",
+    "headline": "Rubin-Observatorium entdeckt möglichen neuen Zwergplaneten jenseits von Neptun",
+    "summary": "Astrophysiker der Harvard University und des Smithsonian haben einen bislang unbekannten Himmelskörper im Kuipergürtel jenseits des Neptuns aufgespürt, der ein neuer Zwergplanet sein könnte. Das vorläufig 2026 ED138 genannte Objekt ist schätzungsweise 600 bis 1.500 Kilometer groß und zählt damit zu den sieben größten bekannten Objekten im äußeren Sonnensystem. Gefunden wurde es in Aufnahmen des Vera-C.-Rubin-Observatoriums in Chile, das mit seinem Acht-Meter-Spiegel etwa alle drei Nächte den gesamten sichtbaren Himmel fotografiert. Weil es vor dem hellen Hintergrund der Milchstraße liegt, war es lange verborgen geblieben. Ob es tatsächlich ein Zwergplanet ist, sollen weitere Beobachtungen seiner Größe zeigen.",
+    "why_positive": "Die Entdeckung zeigt, wie viel es in unserem eigenen Sonnensystem noch zu entdecken gibt – und dass das neue Rubin-Observatorium schon jetzt hält, was sich die Forschung von ihm verspricht.",
+    "category": "Wissenschaft",
+    "category_key": "wissenschaft",
+    "source_name": "wgbh.org",
+    "source_url": "https://www.wgbh.org/news/local/2026-10-27/potential-new-dwarf-planet-found-by-harvard-astrophysicists",
+    "published_at": "2026-10-27",
+    "added_at": "2026-10-28"
   },
   "archive": [
+    {
+      "date": "2026-10-27",
+      "headline": "Kasuare im Zoo Adelaide legen erstmals seit 34 Jahren wieder Eier",
+      "summary": "Im Zoo von Adelaide in Südaustralien hat das Helmkasuar-Weibchen Martina zwei leuchtend grüne Eier gelegt – die ersten dort seit 34 Jahren. Die letzten Kasuar-Küken schlüpften in dem Zoo 1992. Martina und das Männchen Jeffrey waren im Rahmen eines koordinierten Zuchtprogramms erst im August zusammengebracht worden und verstanden sich schon am ersten Tag. Sind die Eier befruchtet, könnten nach etwa 50 Tagen Küken schlüpfen; brüten und die Jungen behüten wird dann Jeffrey, denn bei Kasuaren ist das Aufgabe des Vaters.",
+      "why_positive": "Die Bestände der urtümlichen Laufvögel gehen in freier Wildbahn zurück – ein erfolgreicher Zuchtnachwuchs wäre ein schöner Beitrag zu ihrem Erhalt.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "tagesspiegel.de",
+      "source_url": "https://www.tagesspiegel.de/wissen/was-schlupft-aus-diesen-eiern-australischer-zoo-erwartet-ersten-nachwuchs-seit-jahrzehnten-16192682.html",
+      "published_at": "2026-10-24",
+      "added_at": "2026-10-27"
+    },
     {
       "date": "2026-10-26",
       "headline": "Abholzung im Amazonas so niedrig wie nie seit Beginn der Messungen",
