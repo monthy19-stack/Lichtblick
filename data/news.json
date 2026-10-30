@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-10-29"
+    "updated_at": "2026-10-30"
   },
   "current": {
-    "date": "2026-10-29",
-    "headline": "Harry Kane gewinnt den Ballon d'Or – erster Bundesliga-Profi seit 1996",
-    "summary": "Harry Kane vom FC Bayern München ist bei einer Gala in London mit dem Ballon d'Or ausgezeichnet worden, dem renommiertesten Einzelpreis im Weltfußball. Der 33-jährige Kapitän der englischen Nationalmannschaft ist damit der erste Bundesliga-Spieler seit Matthias Sammer im Jahr 1996, der den Preis erhält, und der erste Bayern-Profi seit Karl-Heinz Rummenigge 1981. Mit dem FC Bayern gewann er in der vergangenen Saison die Meisterschaft und den DFB-Pokal. Bei der Übergabe sagte Kane, er sei „fast sprachlos“.",
-    "why_positive": "Kanes Auszeichnung krönt jahrelange Beständigkeit und harte Arbeit – und sie zeigt, dass Spitzenleistungen in der Bundesliga auch auf der größten Bühne des Weltfußballs gewürdigt werden.",
-    "category": "Sport",
-    "category_key": "sport",
-    "source_name": "sportschau.de",
-    "source_url": "https://www.sportschau.de/fussball/bayern-stuermer-harry-kane-gewinnt-ballon-dor,ballon-d-or-kane-100.html",
-    "published_at": "2026-10-27",
-    "added_at": "2026-10-29"
+    "date": "2026-10-30",
+    "headline": "Erste Hinweise auf wilden Nachwuchs: Störe kehren in die Donau zurück",
+    "summary": "Das Projekt „Lifeboat4Sturgeon“ der Universität für Bodenkultur Wien hat inzwischen mehr als eine Million junge Störe in die Donau entlassen – gezüchtet auf einem ausgedienten Schiff an der Wiener Donauinsel. Nun gibt es erstmals Anzeichen für natürliche Fortpflanzung: Forschende fingen einen Jungfisch, der wahrscheinlich von einem ausgesetzten Sterlet abstammt; die genetische Bestätigung steht noch aus. Projektleiter Thomas Friedrich nennt schon den Fang eines solchen Jungfisches „eigentlich schon eine Sensation“. Auch bei der Zucht des Hausens gab es in diesem Jahr erste Erfolge, sodass im kommenden Jahr erstmals Hausen ausgesetzt werden könnten.",
+    "why_positive": "Die Donau-Störe stehen kurz vor dem Aussterben – erste Hinweise auf wild geschlüpften Nachwuchs zeigen, dass sich jahrelange, geduldige Artenschutzarbeit auszahlen kann.",
+    "category": "Tiere & Natur",
+    "category_key": "tiere",
+    "source_name": "science.orf.at",
+    "source_url": "https://science.orf.at/stories/3237700/",
+    "published_at": "2026-10-28",
+    "added_at": "2026-10-30"
   },
   "archive": [
+    {
+      "date": "2026-10-29",
+      "headline": "Harry Kane gewinnt den Ballon d'Or – erster Bundesliga-Profi seit 1996",
+      "summary": "Harry Kane vom FC Bayern München ist bei einer Gala in London mit dem Ballon d'Or ausgezeichnet worden, dem renommiertesten Einzelpreis im Weltfußball. Der 33-jährige Kapitän der englischen Nationalmannschaft ist damit der erste Bundesliga-Spieler seit Matthias Sammer im Jahr 1996, der den Preis erhält, und der erste Bayern-Profi seit Karl-Heinz Rummenigge 1981. Mit dem FC Bayern gewann er in der vergangenen Saison die Meisterschaft und den DFB-Pokal. Bei der Übergabe sagte Kane, er sei „fast sprachlos“.",
+      "why_positive": "Kanes Auszeichnung krönt jahrelange Beständigkeit und harte Arbeit – und sie zeigt, dass Spitzenleistungen in der Bundesliga auch auf der größten Bühne des Weltfußballs gewürdigt werden.",
+      "category": "Sport",
+      "category_key": "sport",
+      "source_name": "sportschau.de",
+      "source_url": "https://www.sportschau.de/fussball/bayern-stuermer-harry-kane-gewinnt-ballon-dor,ballon-d-or-kane-100.html",
+      "published_at": "2026-10-27",
+      "added_at": "2026-10-29"
+    },
     {
       "date": "2026-10-28",
       "headline": "Rubin-Observatorium entdeckt möglichen neuen Zwergplaneten jenseits von Neptun",
