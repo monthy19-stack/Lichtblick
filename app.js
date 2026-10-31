@@ -297,7 +297,10 @@ async function initVisitCounter() {
     let total, day;
     if (!counted) {
       [total, day] = await Promise.all([bump('total'), bump(`days/${today}`)]);
-      try { sessionStorage.setItem('lichtblick-visit', today); } catch (e) {}
+      // Nur als gezählt merken, wenn das Hochzählen wirklich geklappt hat.
+      if (typeof total === 'number') {
+        try { sessionStorage.setItem('lichtblick-visit', today); } catch (e) {}
+      }
     } else {
       [total, day] = await Promise.all([read('total'), read(`days/${today}`)]);
     }
