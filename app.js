@@ -276,6 +276,41 @@ function upCount(votesMap, date) {
   return v ? Math.max(0, v.up || 0) : 0;
 }
 
+// ---------- Besucherzähler ----------
+// Zählt pro Browser-Sitzung einmal (Neuladen zählt nicht doppelt) in der
+// Firebase-Datenbank: /visits/total und /visits/days/<YYYY-MM-DD>.
+async function initVisitCounter() {
+  const el = document.querySelector('[data-visit-counter]');
+  if (!el || !votesEnabled()) return;
+  const base = votesBase();
+  const today = todayBerlinIso();
+  const bump = (path) => fetch(`${base}/visits/${path}.json`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ '.sv': { increment: 1 } }),
+  }).then((r) => (r.ok ? r.json() : null));
+  const read = (path) => fetch(`${base}/visits/${path}.json`, { cache: 'no-store' })
+    .then((r) => (r.ok ? r.json() : null));
+  try {
+    let counted = false;
+    try { counted = sessionStorage.getItem('lichtblick-visit') === today; } catch (e) {}
+    let total, day;
+    if (!counted) {
+      [total, day] = await Promise.all([bump('total'), bump(`days/${today}`)]);
+      try { sessionStorage.setItem('lichtblick-visit', today); } catch (e) {}
+    } else {
+      [total, day] = await Promise.all([read('total'), read(`days/${today}`)]);
+    }
+    if (typeof total !== 'number') return;
+    el.innerHTML = ICON_EYE + '<span><strong>' + formatCount(total) + '</strong> Aufrufe insgesamt · <strong>' +
+      formatCount(day || 0) + '</strong> heute</span>';
+    el.hidden = false;
+  } catch (e) {
+    // Der Zähler ist ein Extra und darf die Seite nie blockieren.
+  }
+}
+document.addEventListener('DOMContentLoaded', initVisitCounter);
+
 // ============ SHARE MENU ============
 // Builds a share button + popover for a piece of content. `targetPath` is the
 // page the share should point back to ('index.html' or 'archiv.html'); the
