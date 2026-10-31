@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-10-30"
+    "updated_at": "2026-10-31"
   },
   "current": {
-    "date": "2026-10-30",
-    "headline": "Erste Hinweise auf wilden Nachwuchs: Störe kehren in die Donau zurück",
-    "summary": "Das Projekt „Lifeboat4Sturgeon“ der Universität für Bodenkultur Wien hat inzwischen mehr als eine Million junge Störe in die Donau entlassen – gezüchtet auf einem ausgedienten Schiff an der Wiener Donauinsel. Nun gibt es erstmals Anzeichen für natürliche Fortpflanzung: Forschende fingen einen Jungfisch, der wahrscheinlich von einem ausgesetzten Sterlet abstammt; die genetische Bestätigung steht noch aus. Projektleiter Thomas Friedrich nennt schon den Fang eines solchen Jungfisches „eigentlich schon eine Sensation“. Auch bei der Zucht des Hausens gab es in diesem Jahr erste Erfolge, sodass im kommenden Jahr erstmals Hausen ausgesetzt werden könnten.",
-    "why_positive": "Die Donau-Störe stehen kurz vor dem Aussterben – erste Hinweise auf wild geschlüpften Nachwuchs zeigen, dass sich jahrelange, geduldige Artenschutzarbeit auszahlen kann.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
+    "date": "2026-10-31",
+    "headline": "Weltweit werden 252 Millionen Hektar geschädigter Natur wiederhergestellt",
+    "summary": "Das UN-Umweltprogramm UNEP meldet Fortschritte bei der Renaturierung geschädigter Ökosysteme: In 149 Ländern laufen inzwischen Maßnahmen auf rund 252 Millionen Hektar – eine Fläche größer als Grönland. Dabei sind bereits mehr als eine Million „grüne“ Arbeitsplätze entstanden. An Land ist knapp die Hälfte des Ziels für 2030 erreicht, im Meer und in Gewässern geht es dagegen noch deutlich langsamer voran. UNEP-Chefin Inger Andersen spricht von den Anfängen einer der größten Anstrengungen für die Natur, die es bisher gab.",
+    "why_positive": "Die Zwischenbilanz der UN-Dekade zur Wiederherstellung von Ökosystemen zeigt, dass weltweit in großem Maßstab an der Heilung von Landschaften gearbeitet wird – und dass Naturschutz zugleich Arbeitsplätze schafft.",
+    "category": "Umwelt & Klima",
+    "category_key": "umwelt",
     "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3237700/",
-    "published_at": "2026-10-28",
-    "added_at": "2026-10-30"
+    "source_url": "https://science.orf.at/stories/3237944/",
+    "published_at": "2026-10-29",
+    "added_at": "2026-10-31"
   },
   "archive": [
+    {
+      "date": "2026-10-30",
+      "headline": "Erste Hinweise auf wilden Nachwuchs: Störe kehren in die Donau zurück",
+      "summary": "Das Projekt „Lifeboat4Sturgeon“ der Universität für Bodenkultur Wien hat inzwischen mehr als eine Million junge Störe in die Donau entlassen – gezüchtet auf einem ausgedienten Schiff an der Wiener Donauinsel. Nun gibt es erstmals Anzeichen für natürliche Fortpflanzung: Forschende fingen einen Jungfisch, der wahrscheinlich von einem ausgesetzten Sterlet abstammt; die genetische Bestätigung steht noch aus. Projektleiter Thomas Friedrich nennt schon den Fang eines solchen Jungfisches „eigentlich schon eine Sensation“. Auch bei der Zucht des Hausens gab es in diesem Jahr erste Erfolge, sodass im kommenden Jahr erstmals Hausen ausgesetzt werden könnten.",
+      "why_positive": "Die Donau-Störe stehen kurz vor dem Aussterben – erste Hinweise auf wild geschlüpften Nachwuchs zeigen, dass sich jahrelange, geduldige Artenschutzarbeit auszahlen kann.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3237700/",
+      "published_at": "2026-10-28",
+      "added_at": "2026-10-30"
+    },
     {
       "date": "2026-10-29",
       "headline": "Harry Kane gewinnt den Ballon d'Or – erster Bundesliga-Profi seit 1996",
