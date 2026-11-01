@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-10-31"
+    "updated_at": "2026-11-01"
   },
   "current": {
-    "date": "2026-10-31",
-    "headline": "Weltweit werden 252 Millionen Hektar geschädigter Natur wiederhergestellt",
-    "summary": "Das UN-Umweltprogramm UNEP meldet Fortschritte bei der Renaturierung geschädigter Ökosysteme: In 149 Ländern laufen inzwischen Maßnahmen auf rund 252 Millionen Hektar – eine Fläche größer als Grönland. Dabei sind bereits mehr als eine Million „grüne“ Arbeitsplätze entstanden. An Land ist knapp die Hälfte des Ziels für 2030 erreicht, im Meer und in Gewässern geht es dagegen noch deutlich langsamer voran. UNEP-Chefin Inger Andersen spricht von den Anfängen einer der größten Anstrengungen für die Natur, die es bisher gab.",
-    "why_positive": "Die Zwischenbilanz der UN-Dekade zur Wiederherstellung von Ökosystemen zeigt, dass weltweit in großem Maßstab an der Heilung von Landschaften gearbeitet wird – und dass Naturschutz zugleich Arbeitsplätze schafft.",
-    "category": "Umwelt & Klima",
-    "category_key": "umwelt",
-    "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3237944/",
-    "published_at": "2026-10-29",
-    "added_at": "2026-10-31"
+    "date": "2026-11-01",
+    "headline": "Winzige Flugroboter schweben allein dank Ultraschall – ohne Motor und Batterie",
+    "summary": "Forschende des Labors Microbs an der EPFL in Lausanne um Selman Sakar haben Mini-Drohnen entwickelt, die ganz ohne Motor, Batterie oder Elektronik fliegen. Kleine Hohlräume wandeln Schallwellen nach dem Prinzip der Helmholtz-Resonanz – wie beim Pusten über eine Flaschenöffnung – in Schub um. Angetrieben werden die nur rund 0,15 Milligramm leichten Prototypen von einem externen Gerät, das unhörbaren Ultraschall mit 40.000 Hertz erzeugt; über die Frequenz lässt sich die Bewegung steuern. Im Labor konnten die Drohnen bereits abheben und schweben, die Ergebnisse erschienen im Fachjournal Science Advances. Bis zu komplexen Flugrouten und einem Einsatz in der Medizin ist es allerdings noch ein weiter Weg.",
+    "why_positive": "Der neue Ansatz könnte eines Tages helfen, Medikamente gezielt und schonend an ihren Wirkort im Körper zu bringen – etwa in die Lunge. Dafür arbeitet das Team bereits mit den Universitätsspitälern Genf und Lausanne zusammen.",
+    "category": "Technologie",
+    "category_key": "technologie",
+    "source_name": "srf.ch",
+    "source_url": "https://www.srf.ch/news/dialog/innovation-in-der-medizin-winzige-drohnen-fliegen-dank-ultraschall-durch-den-koerper",
+    "published_at": "2026-10-31",
+    "added_at": "2026-11-01"
   },
   "archive": [
+    {
+      "date": "2026-10-31",
+      "headline": "Weltweit werden 252 Millionen Hektar geschädigter Natur wiederhergestellt",
+      "summary": "Das UN-Umweltprogramm UNEP meldet Fortschritte bei der Renaturierung geschädigter Ökosysteme: In 149 Ländern laufen inzwischen Maßnahmen auf rund 252 Millionen Hektar – eine Fläche größer als Grönland. Dabei sind bereits mehr als eine Million „grüne“ Arbeitsplätze entstanden. An Land ist knapp die Hälfte des Ziels für 2030 erreicht, im Meer und in Gewässern geht es dagegen noch deutlich langsamer voran. UNEP-Chefin Inger Andersen spricht von den Anfängen einer der größten Anstrengungen für die Natur, die es bisher gab.",
+      "why_positive": "Die Zwischenbilanz der UN-Dekade zur Wiederherstellung von Ökosystemen zeigt, dass weltweit in großem Maßstab an der Heilung von Landschaften gearbeitet wird – und dass Naturschutz zugleich Arbeitsplätze schafft.",
+      "category": "Umwelt & Klima",
+      "category_key": "umwelt",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3237944/",
+      "published_at": "2026-10-29",
+      "added_at": "2026-10-31"
+    },
     {
       "date": "2026-10-30",
       "headline": "Erste Hinweise auf wilden Nachwuchs: Störe kehren in die Donau zurück",
