@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-02"
+    "updated_at": "2026-11-03"
   },
   "current": {
-    "date": "2026-11-02",
-    "headline": "Antarktis: Größte Adéliepinguin-Kolonie der Welt wächst um rund 13 Prozent",
-    "summary": "Auf den Danger Islands an der Spitze der Antarktischen Halbinsel brüten rund 850.000 Paare Adéliepinguine – etwa 13 Prozent mehr als bei der letzten Zählung vor rund zehn Jahren. Ein deutsches Team unter Leitung des Umweltbundesamts hatte die sieben Inseln mit dem Forschungssegelboot „Malizia Explorer“ erreicht und an dem einzigen Tag, an dem das Eis es zuließ, mit Drohnen überflogen. In Jena werteten Forschende die Bilder über Monate aus und zählten die Nester. Während die Bestände an vielen Orten der Halbinsel schrumpfen, könnten die seit 2024 besonders geschützten Inseln den Tieren als Rückzugsort dienen. 2027 will das Team zurückkehren.",
-    "why_positive": "Ausgerechnet in einer Region, in der Pinguinbestände vielerorts zurückgehen, wächst die weltweit größte bekannte Brutkolonie der Adéliepinguine. Das zeigt, wie wertvoll geschützte Rückzugsorte für bedrohte Tierarten sein können.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
+    "date": "2026-11-03",
+    "headline": "Charité testet Verfahren, das mehr Spenderlebern nutzbar machen könnte",
+    "summary": "An der Berliner Charité und weiteren deutschen Transplantationszentren läuft die ExTRa-Studie zur sogenannten normothermen Maschinenperfusion. Dabei wird eine Spenderleber nach dem gekühlten Transport von einer körperwarmen Flüssigkeit mit roten Blutkörperchen durchströmt und mit Sauerstoff, Nährstoffen und Medikamenten versorgt. So lässt sich vor der Transplantation prüfen, wie gut das Organ arbeitet – etwa, ob es Galle produziert. Das Verfahren könnte Lebern nutzbar machen, die bisher womöglich nicht infrage gekommen wären, zum Beispiel von älteren Spendern. Erste Erfahrungen wurden auf dem Jahreskongress der Deutschen Stiftung Organtransplantation vorgestellt; belastbare Studienergebnisse werden in etwa zwei Jahren erwartet.",
+    "why_positive": "In Deutschland warten mehr als 900 Menschen auf eine Spenderleber – jedes zusätzlich nutzbare Organ kann ein Leben retten. Die Ärztinnen und Ärzte der Charité zeigen sich von den ersten Erfahrungen begeistert.",
+    "category": "Gesundheit",
+    "category_key": "gesundheit",
     "source_name": "zdfheute.de",
-    "source_url": "https://www.zdfheute.de/wissen/antarktis-expedition-pinguin-adeliepinguin-wissenschaft-100.html",
-    "published_at": "2026-11-01",
-    "added_at": "2026-11-02"
+    "source_url": "https://www.zdfheute.de/wissen/leber-spende-spenderorgan-maschinenperfusion-charite-100.html",
+    "published_at": "2026-10-31",
+    "added_at": "2026-11-03"
   },
   "archive": [
+    {
+      "date": "2026-11-02",
+      "headline": "Antarktis: Größte Adéliepinguin-Kolonie der Welt wächst um rund 13 Prozent",
+      "summary": "Auf den Danger Islands an der Spitze der Antarktischen Halbinsel brüten rund 850.000 Paare Adéliepinguine – etwa 13 Prozent mehr als bei der letzten Zählung vor rund zehn Jahren. Ein deutsches Team unter Leitung des Umweltbundesamts hatte die sieben Inseln mit dem Forschungssegelboot „Malizia Explorer“ erreicht und an dem einzigen Tag, an dem das Eis es zuließ, mit Drohnen überflogen. In Jena werteten Forschende die Bilder über Monate aus und zählten die Nester. Während die Bestände an vielen Orten der Halbinsel schrumpfen, könnten die seit 2024 besonders geschützten Inseln den Tieren als Rückzugsort dienen. 2027 will das Team zurückkehren.",
+      "why_positive": "Ausgerechnet in einer Region, in der Pinguinbestände vielerorts zurückgehen, wächst die weltweit größte bekannte Brutkolonie der Adéliepinguine. Das zeigt, wie wertvoll geschützte Rückzugsorte für bedrohte Tierarten sein können.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "zdfheute.de",
+      "source_url": "https://www.zdfheute.de/wissen/antarktis-expedition-pinguin-adeliepinguin-wissenschaft-100.html",
+      "published_at": "2026-11-01",
+      "added_at": "2026-11-02"
+    },
     {
       "date": "2026-11-01",
       "headline": "Winzige Flugroboter schweben allein dank Ultraschall – ohne Motor und Batterie",
