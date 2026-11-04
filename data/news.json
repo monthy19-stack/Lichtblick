@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-03"
+    "updated_at": "2026-11-04"
   },
   "current": {
-    "date": "2026-11-03",
-    "headline": "Charité testet Verfahren, das mehr Spenderlebern nutzbar machen könnte",
-    "summary": "An der Berliner Charité und weiteren deutschen Transplantationszentren läuft die ExTRa-Studie zur sogenannten normothermen Maschinenperfusion. Dabei wird eine Spenderleber nach dem gekühlten Transport von einer körperwarmen Flüssigkeit mit roten Blutkörperchen durchströmt und mit Sauerstoff, Nährstoffen und Medikamenten versorgt. So lässt sich vor der Transplantation prüfen, wie gut das Organ arbeitet – etwa, ob es Galle produziert. Das Verfahren könnte Lebern nutzbar machen, die bisher womöglich nicht infrage gekommen wären, zum Beispiel von älteren Spendern. Erste Erfahrungen wurden auf dem Jahreskongress der Deutschen Stiftung Organtransplantation vorgestellt; belastbare Studienergebnisse werden in etwa zwei Jahren erwartet.",
-    "why_positive": "In Deutschland warten mehr als 900 Menschen auf eine Spenderleber – jedes zusätzlich nutzbare Organ kann ein Leben retten. Die Ärztinnen und Ärzte der Charité zeigen sich von den ersten Erfahrungen begeistert.",
-    "category": "Gesundheit",
-    "category_key": "gesundheit",
+    "date": "2026-11-04",
+    "headline": "Erste Jüdische Akademie seit der Schoah in Frankfurt eröffnet",
+    "summary": "Im Frankfurter Westend ist die Jüdische Akademie feierlich eröffnet worden – laut Zentralrat der Juden die erste überregionale, nicht-universitäre jüdische Bildungseinrichtung in Deutschland seit der Schoah. Bundespräsident Frank-Walter Steinmeier hielt die Festrede, Zentralratspräsident Josef Schuster stellte die Ziele vor. Die Akademie soll jüdisches Leben in seiner Vielfalt sichtbar machen und die Bildungslandschaft um jüdische Perspektiven auf Religion, Philosophie, Geschichte, Kunst, Film und Literatur ergänzen. Geplant sind internationale Konferenzen, Fachtagungen und Podiumsdiskussionen, auch in Kooperation mit der Goethe-Universität Frankfurt. Getragen wurden die rund 40 Millionen Euro Kosten von Bund, Land Hessen, Stadt Frankfurt und Zentralrat.",
+    "why_positive": "Die Akademie schafft einen festen Ort für Begegnung, Dialog und Debatte – und zeigt, wie Schuster sagt: „Judentum ist mehr als Verfolgung.“",
+    "category": "Gesellschaft",
+    "category_key": "gesellschaft",
     "source_name": "zdfheute.de",
-    "source_url": "https://www.zdfheute.de/wissen/leber-spende-spenderorgan-maschinenperfusion-charite-100.html",
-    "published_at": "2026-10-31",
-    "added_at": "2026-11-03"
+    "source_url": "https://www.zdfheute.de/wissen/juedische-akademie-frankfurt-100.html",
+    "published_at": "2026-11-02",
+    "added_at": "2026-11-04"
   },
   "archive": [
+    {
+      "date": "2026-11-03",
+      "headline": "Charité testet Verfahren, das mehr Spenderlebern nutzbar machen könnte",
+      "summary": "An der Berliner Charité und weiteren deutschen Transplantationszentren läuft die ExTRa-Studie zur sogenannten normothermen Maschinenperfusion. Dabei wird eine Spenderleber nach dem gekühlten Transport von einer körperwarmen Flüssigkeit mit roten Blutkörperchen durchströmt und mit Sauerstoff, Nährstoffen und Medikamenten versorgt. So lässt sich vor der Transplantation prüfen, wie gut das Organ arbeitet – etwa, ob es Galle produziert. Das Verfahren könnte Lebern nutzbar machen, die bisher womöglich nicht infrage gekommen wären, zum Beispiel von älteren Spendern. Erste Erfahrungen wurden auf dem Jahreskongress der Deutschen Stiftung Organtransplantation vorgestellt; belastbare Studienergebnisse werden in etwa zwei Jahren erwartet.",
+      "why_positive": "In Deutschland warten mehr als 900 Menschen auf eine Spenderleber – jedes zusätzlich nutzbare Organ kann ein Leben retten. Die Ärztinnen und Ärzte der Charité zeigen sich von den ersten Erfahrungen begeistert.",
+      "category": "Gesundheit",
+      "category_key": "gesundheit",
+      "source_name": "zdfheute.de",
+      "source_url": "https://www.zdfheute.de/wissen/leber-spende-spenderorgan-maschinenperfusion-charite-100.html",
+      "published_at": "2026-10-31",
+      "added_at": "2026-11-03"
+    },
     {
       "date": "2026-11-02",
       "headline": "Antarktis: Größte Adéliepinguin-Kolonie der Welt wächst um rund 13 Prozent",
