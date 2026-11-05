@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-04"
+    "updated_at": "2026-11-05"
   },
   "current": {
-    "date": "2026-11-04",
-    "headline": "Erste Jüdische Akademie seit der Schoah in Frankfurt eröffnet",
-    "summary": "Im Frankfurter Westend ist die Jüdische Akademie feierlich eröffnet worden – laut Zentralrat der Juden die erste überregionale, nicht-universitäre jüdische Bildungseinrichtung in Deutschland seit der Schoah. Bundespräsident Frank-Walter Steinmeier hielt die Festrede, Zentralratspräsident Josef Schuster stellte die Ziele vor. Die Akademie soll jüdisches Leben in seiner Vielfalt sichtbar machen und die Bildungslandschaft um jüdische Perspektiven auf Religion, Philosophie, Geschichte, Kunst, Film und Literatur ergänzen. Geplant sind internationale Konferenzen, Fachtagungen und Podiumsdiskussionen, auch in Kooperation mit der Goethe-Universität Frankfurt. Getragen wurden die rund 40 Millionen Euro Kosten von Bund, Land Hessen, Stadt Frankfurt und Zentralrat.",
-    "why_positive": "Die Akademie schafft einen festen Ort für Begegnung, Dialog und Debatte – und zeigt, wie Schuster sagt: „Judentum ist mehr als Verfolgung.“",
-    "category": "Gesellschaft",
-    "category_key": "gesellschaft",
-    "source_name": "zdfheute.de",
-    "source_url": "https://www.zdfheute.de/wissen/juedische-akademie-frankfurt-100.html",
-    "published_at": "2026-11-02",
-    "added_at": "2026-11-04"
+    "date": "2026-11-05",
+    "headline": "Uralte DNA von über 4.500 Menschen verrät Ursprünge der germanischen Sprachen",
+    "summary": "Ein internationales Forschungsteam unter Leitung der Universitäten Kopenhagen und Leiden hat das Erbgut aus Überresten von mehr als 4.500 Menschen analysiert, beteiligt waren auch Forschende aus Wien. Demnach wanderte vor rund 4.000 Jahren eine bisher unbekannte Bevölkerungsgruppe vermutlich aus dem Baltikum in das heutige Schweden ein und brachte womöglich die früheste Vorstufe der germanischen Sprachen mit. Vor etwa 1.600 Jahren zogen Gruppen aus Südskandinavien Richtung Niederlande, Polen und Großbritannien. Eine zweite, ebenfalls in „Nature“ veröffentlichte Studie bringt die Verbreitung der keltischen Sprachen mit einer Wanderung aus Mitteleuropa vor rund 3.000 Jahren in Verbindung.",
+    "why_positive": "Die Verbindung von Genetik, Sprachwissenschaft und Archäologie hilft, eine der großen Fragen unserer gemeinsamen Geschichte zu beantworten: woher Sprachen wie Deutsch, Englisch und die skandinavischen Sprachen stammen.",
+    "category": "Wissenschaft",
+    "category_key": "wissenschaft",
+    "source_name": "science.orf.at",
+    "source_url": "https://science.orf.at/stories/3238009/",
+    "published_at": "2026-11-04",
+    "added_at": "2026-11-05"
   },
   "archive": [
+    {
+      "date": "2026-11-04",
+      "headline": "Erste Jüdische Akademie seit der Schoah in Frankfurt eröffnet",
+      "summary": "Im Frankfurter Westend ist die Jüdische Akademie feierlich eröffnet worden – laut Zentralrat der Juden die erste überregionale, nicht-universitäre jüdische Bildungseinrichtung in Deutschland seit der Schoah. Bundespräsident Frank-Walter Steinmeier hielt die Festrede, Zentralratspräsident Josef Schuster stellte die Ziele vor. Die Akademie soll jüdisches Leben in seiner Vielfalt sichtbar machen und die Bildungslandschaft um jüdische Perspektiven auf Religion, Philosophie, Geschichte, Kunst, Film und Literatur ergänzen. Geplant sind internationale Konferenzen, Fachtagungen und Podiumsdiskussionen, auch in Kooperation mit der Goethe-Universität Frankfurt. Getragen wurden die rund 40 Millionen Euro Kosten von Bund, Land Hessen, Stadt Frankfurt und Zentralrat.",
+      "why_positive": "Die Akademie schafft einen festen Ort für Begegnung, Dialog und Debatte – und zeigt, wie Schuster sagt: „Judentum ist mehr als Verfolgung.“",
+      "category": "Gesellschaft",
+      "category_key": "gesellschaft",
+      "source_name": "zdfheute.de",
+      "source_url": "https://www.zdfheute.de/wissen/juedische-akademie-frankfurt-100.html",
+      "published_at": "2026-11-02",
+      "added_at": "2026-11-04"
+    },
     {
       "date": "2026-11-03",
       "headline": "Charité testet Verfahren, das mehr Spenderlebern nutzbar machen könnte",
