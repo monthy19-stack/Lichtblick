@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-05"
+    "updated_at": "2026-11-06"
   },
   "current": {
-    "date": "2026-11-05",
-    "headline": "Uralte DNA von über 4.500 Menschen verrät Ursprünge der germanischen Sprachen",
-    "summary": "Ein internationales Forschungsteam unter Leitung der Universitäten Kopenhagen und Leiden hat das Erbgut aus Überresten von mehr als 4.500 Menschen analysiert, beteiligt waren auch Forschende aus Wien. Demnach wanderte vor rund 4.000 Jahren eine bisher unbekannte Bevölkerungsgruppe vermutlich aus dem Baltikum in das heutige Schweden ein und brachte womöglich die früheste Vorstufe der germanischen Sprachen mit. Vor etwa 1.600 Jahren zogen Gruppen aus Südskandinavien Richtung Niederlande, Polen und Großbritannien. Eine zweite, ebenfalls in „Nature“ veröffentlichte Studie bringt die Verbreitung der keltischen Sprachen mit einer Wanderung aus Mitteleuropa vor rund 3.000 Jahren in Verbindung.",
-    "why_positive": "Die Verbindung von Genetik, Sprachwissenschaft und Archäologie hilft, eine der großen Fragen unserer gemeinsamen Geschichte zu beantworten: woher Sprachen wie Deutsch, Englisch und die skandinavischen Sprachen stammen.",
-    "category": "Wissenschaft",
-    "category_key": "wissenschaft",
-    "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3238009/",
+    "date": "2026-11-06",
+    "headline": "WHO-Bericht: 63 Länder haben mindestens eine Tropenkrankheit besiegt",
+    "summary": "Die Weltgesundheitsorganisation hat ihren Bericht 2026 zu vernachlässigten Tropenkrankheiten vorgelegt, eine Zwischenbilanz ihres Fahrplans bis 2030. Demnach hatten bis Juni 2026 bereits 63 Länder mindestens eine dieser Krankheiten eliminiert; Togo ist das erste Land, dem das bei vier Krankheiten gelungen ist. Die Zahl der Betroffenen sank von 2020 bis 2024 um 19 Prozent auf rund 1,41 Milliarden Menschen. Fälle der Schlafkrankheit gingen seit 1999 um 98 Prozent zurück, beim Guineawurm wurden 2025 nur noch zehn menschliche Fälle gezählt – ein Rekordtief. Die WHO mahnt zugleich, dass der Fortschritt ungleich verteilt und vor allem durch fehlende Finanzierung gefährdet ist.",
+    "why_positive": "Krankheiten, die vor allem die ärmsten Menschen der Welt treffen, werden Land für Land zurückgedrängt – ein Beleg dafür, dass beharrliche Gesundheitsarbeit Millionen Menschen Leid ersparen kann.",
+    "category": "Gesundheit",
+    "category_key": "gesundheit",
+    "source_name": "healthpolicy-watch.news",
+    "source_url": "https://healthpolicy-watch.news/uneven-and-fragile-progress-against-neglected-tropical-diseases/",
     "published_at": "2026-11-04",
-    "added_at": "2026-11-05"
+    "added_at": "2026-11-06"
   },
   "archive": [
+    {
+      "date": "2026-11-05",
+      "headline": "Uralte DNA von über 4.500 Menschen verrät Ursprünge der germanischen Sprachen",
+      "summary": "Ein internationales Forschungsteam unter Leitung der Universitäten Kopenhagen und Leiden hat das Erbgut aus Überresten von mehr als 4.500 Menschen analysiert, beteiligt waren auch Forschende aus Wien. Demnach wanderte vor rund 4.000 Jahren eine bisher unbekannte Bevölkerungsgruppe vermutlich aus dem Baltikum in das heutige Schweden ein und brachte womöglich die früheste Vorstufe der germanischen Sprachen mit. Vor etwa 1.600 Jahren zogen Gruppen aus Südskandinavien Richtung Niederlande, Polen und Großbritannien. Eine zweite, ebenfalls in „Nature“ veröffentlichte Studie bringt die Verbreitung der keltischen Sprachen mit einer Wanderung aus Mitteleuropa vor rund 3.000 Jahren in Verbindung.",
+      "why_positive": "Die Verbindung von Genetik, Sprachwissenschaft und Archäologie hilft, eine der großen Fragen unserer gemeinsamen Geschichte zu beantworten: woher Sprachen wie Deutsch, Englisch und die skandinavischen Sprachen stammen.",
+      "category": "Wissenschaft",
+      "category_key": "wissenschaft",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3238009/",
+      "published_at": "2026-11-04",
+      "added_at": "2026-11-05"
+    },
     {
       "date": "2026-11-04",
       "headline": "Erste Jüdische Akademie seit der Schoah in Frankfurt eröffnet",
