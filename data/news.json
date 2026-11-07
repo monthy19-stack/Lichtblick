@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-06"
+    "updated_at": "2026-11-07"
   },
   "current": {
-    "date": "2026-11-06",
-    "headline": "WHO-Bericht: 63 Länder haben mindestens eine Tropenkrankheit besiegt",
-    "summary": "Die Weltgesundheitsorganisation hat ihren Bericht 2026 zu vernachlässigten Tropenkrankheiten vorgelegt, eine Zwischenbilanz ihres Fahrplans bis 2030. Demnach hatten bis Juni 2026 bereits 63 Länder mindestens eine dieser Krankheiten eliminiert; Togo ist das erste Land, dem das bei vier Krankheiten gelungen ist. Die Zahl der Betroffenen sank von 2020 bis 2024 um 19 Prozent auf rund 1,41 Milliarden Menschen. Fälle der Schlafkrankheit gingen seit 1999 um 98 Prozent zurück, beim Guineawurm wurden 2025 nur noch zehn menschliche Fälle gezählt – ein Rekordtief. Die WHO mahnt zugleich, dass der Fortschritt ungleich verteilt und vor allem durch fehlende Finanzierung gefährdet ist.",
-    "why_positive": "Krankheiten, die vor allem die ärmsten Menschen der Welt treffen, werden Land für Land zurückgedrängt – ein Beleg dafür, dass beharrliche Gesundheitsarbeit Millionen Menschen Leid ersparen kann.",
-    "category": "Gesundheit",
-    "category_key": "gesundheit",
-    "source_name": "healthpolicy-watch.news",
-    "source_url": "https://healthpolicy-watch.news/uneven-and-fragile-progress-against-neglected-tropical-diseases/",
+    "date": "2026-11-07",
+    "headline": "Erstmals seit 200 Jahren: Vier junge Luchse in Baden-Württemberg nachgewiesen",
+    "summary": "In Baden-Württemberg sind vier Luchsjungtiere von drei Weibchen nachgewiesen worden – laut dem Projekt „Luchs Baden-Württemberg“ der erste Luchsnachwuchs im Land seit rund 200 Jahren. Zwei der Mütter, Elisabeth und Verena, wurden im Rahmen des Projekts ausgewildert und stammen aus einem europäischen Erhaltungszuchtprogramm für Karpatenluchse; Verena wurde Ende September mit zwei Jungen fotografiert. Im Südschwarzwald meldete ein Beobachter im Oktober zudem ein bisher unbekanntes Weibchen mit Jungtier, das womöglich aus der Schweiz eingewandert ist. Nach Angaben der Forstlichen Versuchs- und Forschungsanstalt wäre das die erste dokumentierte Fortpflanzung einer selbstständig eingewanderten, wildlebenden Luchskatze im Land.",
+    "why_positive": "Eine einst ausgerottete Art bekommt in Baden-Württemberg wieder eigenen Nachwuchs – ein Zeichen, dass Auswilderung und Schutz wirken und sich die Luchsbestände der Region allmählich miteinander vernetzen.",
+    "category": "Tiere & Natur",
+    "category_key": "tiere",
+    "source_name": "schwaebische.de",
+    "source_url": "https://www.schwaebische.de/regional/baden-wuerttemberg/was-der-neue-luchsnachwuchs-fuer-baden-wuerttemberg-bedeutet-4987075",
     "published_at": "2026-11-04",
-    "added_at": "2026-11-06"
+    "added_at": "2026-11-07"
   },
   "archive": [
+    {
+      "date": "2026-11-06",
+      "headline": "WHO-Bericht: 63 Länder haben mindestens eine Tropenkrankheit besiegt",
+      "summary": "Die Weltgesundheitsorganisation hat ihren Bericht 2026 zu vernachlässigten Tropenkrankheiten vorgelegt, eine Zwischenbilanz ihres Fahrplans bis 2030. Demnach hatten bis Juni 2026 bereits 63 Länder mindestens eine dieser Krankheiten eliminiert; Togo ist das erste Land, dem das bei vier Krankheiten gelungen ist. Die Zahl der Betroffenen sank von 2020 bis 2024 um 19 Prozent auf rund 1,41 Milliarden Menschen. Fälle der Schlafkrankheit gingen seit 1999 um 98 Prozent zurück, beim Guineawurm wurden 2025 nur noch zehn menschliche Fälle gezählt – ein Rekordtief. Die WHO mahnt zugleich, dass der Fortschritt ungleich verteilt und vor allem durch fehlende Finanzierung gefährdet ist.",
+      "why_positive": "Krankheiten, die vor allem die ärmsten Menschen der Welt treffen, werden Land für Land zurückgedrängt – ein Beleg dafür, dass beharrliche Gesundheitsarbeit Millionen Menschen Leid ersparen kann.",
+      "category": "Gesundheit",
+      "category_key": "gesundheit",
+      "source_name": "healthpolicy-watch.news",
+      "source_url": "https://healthpolicy-watch.news/uneven-and-fragile-progress-against-neglected-tropical-diseases/",
+      "published_at": "2026-11-04",
+      "added_at": "2026-11-06"
+    },
     {
       "date": "2026-11-05",
       "headline": "Uralte DNA von über 4.500 Menschen verrät Ursprünge der germanischen Sprachen",
