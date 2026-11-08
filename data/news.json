@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-07"
+    "updated_at": "2026-11-08"
   },
   "current": {
-    "date": "2026-11-07",
-    "headline": "Erstmals seit 200 Jahren: Vier junge Luchse in Baden-Württemberg nachgewiesen",
-    "summary": "In Baden-Württemberg sind vier Luchsjungtiere von drei Weibchen nachgewiesen worden – laut dem Projekt „Luchs Baden-Württemberg“ der erste Luchsnachwuchs im Land seit rund 200 Jahren. Zwei der Mütter, Elisabeth und Verena, wurden im Rahmen des Projekts ausgewildert und stammen aus einem europäischen Erhaltungszuchtprogramm für Karpatenluchse; Verena wurde Ende September mit zwei Jungen fotografiert. Im Südschwarzwald meldete ein Beobachter im Oktober zudem ein bisher unbekanntes Weibchen mit Jungtier, das womöglich aus der Schweiz eingewandert ist. Nach Angaben der Forstlichen Versuchs- und Forschungsanstalt wäre das die erste dokumentierte Fortpflanzung einer selbstständig eingewanderten, wildlebenden Luchskatze im Land.",
-    "why_positive": "Eine einst ausgerottete Art bekommt in Baden-Württemberg wieder eigenen Nachwuchs – ein Zeichen, dass Auswilderung und Schutz wirken und sich die Luchsbestände der Region allmählich miteinander vernetzen.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
-    "source_name": "schwaebische.de",
-    "source_url": "https://www.schwaebische.de/regional/baden-wuerttemberg/was-der-neue-luchsnachwuchs-fuer-baden-wuerttemberg-bedeutet-4987075",
-    "published_at": "2026-11-04",
-    "added_at": "2026-11-07"
+    "date": "2026-11-08",
+    "headline": "Eiszeitkunst in Touristenhöhle erkannt: 280 Gravuren in Katalonien entdeckt",
+    "summary": "In der Cova de la Font Major in L'Espluga de Francolí, rund 100 Kilometer westlich von Barcelona, haben Forschende rund 280 Gravuren an Wänden und Decke identifiziert. Die Ritzzeichnungen stammen vermutlich aus der Altsteinzeit und könnten bis zu 37.000 Jahre alt sein. Ein Forscherduo zählte darunter 55 Tierdarstellungen, etwa ein Pferd. Die Höhle ist seit 1993 eine Touristenattraktion – die Bedeutung der Bilder wurde aber erst jetzt erkannt. Die Studie erschien in der Fachzeitschrift Antiquity.",
+    "why_positive": "Die Entdeckung zeigt, dass selbst an viel besuchten Orten noch Schätze unserer frühen Geschichte verborgen sein können – und schenkt uns einen neuen Blick auf die Kunst der Menschen der Eiszeit.",
+    "category": "Kultur",
+    "category_key": "kultur",
+    "source_name": "derstandard.at",
+    "source_url": "https://www.derstandard.at/story/3000000347680/kratzbilder-aus-touristischer-hoehle-entpuppen-sich-als-spektakulaere-eiszeitkunst",
+    "published_at": "2026-11-06",
+    "added_at": "2026-11-08"
   },
   "archive": [
+    {
+      "date": "2026-11-07",
+      "headline": "Erstmals seit 200 Jahren: Vier junge Luchse in Baden-Württemberg nachgewiesen",
+      "summary": "In Baden-Württemberg sind vier Luchsjungtiere von drei Weibchen nachgewiesen worden – laut dem Projekt „Luchs Baden-Württemberg“ der erste Luchsnachwuchs im Land seit rund 200 Jahren. Zwei der Mütter, Elisabeth und Verena, wurden im Rahmen des Projekts ausgewildert und stammen aus einem europäischen Erhaltungszuchtprogramm für Karpatenluchse; Verena wurde Ende September mit zwei Jungen fotografiert. Im Südschwarzwald meldete ein Beobachter im Oktober zudem ein bisher unbekanntes Weibchen mit Jungtier, das womöglich aus der Schweiz eingewandert ist. Nach Angaben der Forstlichen Versuchs- und Forschungsanstalt wäre das die erste dokumentierte Fortpflanzung einer selbstständig eingewanderten, wildlebenden Luchskatze im Land.",
+      "why_positive": "Eine einst ausgerottete Art bekommt in Baden-Württemberg wieder eigenen Nachwuchs – ein Zeichen, dass Auswilderung und Schutz wirken und sich die Luchsbestände der Region allmählich miteinander vernetzen.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "schwaebische.de",
+      "source_url": "https://www.schwaebische.de/regional/baden-wuerttemberg/was-der-neue-luchsnachwuchs-fuer-baden-wuerttemberg-bedeutet-4987075",
+      "published_at": "2026-11-04",
+      "added_at": "2026-11-07"
+    },
     {
       "date": "2026-11-06",
       "headline": "WHO-Bericht: 63 Länder haben mindestens eine Tropenkrankheit besiegt",
