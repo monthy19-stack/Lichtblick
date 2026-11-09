@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-08"
+    "updated_at": "2026-11-09"
   },
   "current": {
-    "date": "2026-11-08",
-    "headline": "Eiszeitkunst in Touristenhöhle erkannt: 280 Gravuren in Katalonien entdeckt",
-    "summary": "In der Cova de la Font Major in L'Espluga de Francolí, rund 100 Kilometer westlich von Barcelona, haben Forschende rund 280 Gravuren an Wänden und Decke identifiziert. Die Ritzzeichnungen stammen vermutlich aus der Altsteinzeit und könnten bis zu 37.000 Jahre alt sein. Ein Forscherduo zählte darunter 55 Tierdarstellungen, etwa ein Pferd. Die Höhle ist seit 1993 eine Touristenattraktion – die Bedeutung der Bilder wurde aber erst jetzt erkannt. Die Studie erschien in der Fachzeitschrift Antiquity.",
-    "why_positive": "Die Entdeckung zeigt, dass selbst an viel besuchten Orten noch Schätze unserer frühen Geschichte verborgen sein können – und schenkt uns einen neuen Blick auf die Kunst der Menschen der Eiszeit.",
-    "category": "Kultur",
-    "category_key": "kultur",
-    "source_name": "derstandard.at",
-    "source_url": "https://www.derstandard.at/story/3000000347680/kratzbilder-aus-touristischer-hoehle-entpuppen-sich-als-spektakulaere-eiszeitkunst",
-    "published_at": "2026-11-06",
-    "added_at": "2026-11-08"
+    "date": "2026-11-09",
+    "headline": "Latsis-Preis 2026: Basler Mathematikerin Susanna Zimmermann ausgezeichnet",
+    "summary": "Die 39-jährige Mathematikerin Susanna Zimmermann erhält den Latsis-Preis 2026, eine der wichtigsten Schweizer Auszeichnungen für Grundlagenforschung. Der Preis ist mit 100.000 Franken dotiert und wird vom Schweizerischen Nationalfonds im Auftrag der Internationalen Latsis-Stiftung vergeben. Die gebürtige Glarnerin ist Professorin an der Universität Basel und forscht in der birationalen Geometrie – also zur Frage, wann zwei geometrische Formen im Kern dasselbe sind. Methoden aus diesem Gebiet sind unter anderem für die digitale Verschlüsselung bedeutsam. Zimmermann betont, dass Grundlagenforschung auch ohne direkte Anwendung wertvoll ist.",
+    "why_positive": "Die Auszeichnung würdigt herausragende Grundlagenforschung und macht eine Frau in der Spitze der Mathematik sichtbar – ein ermutigendes Vorbild für junge Forschende.",
+    "category": "Wissenschaft",
+    "category_key": "wissenschaft",
+    "source_name": "srf.ch",
+    "source_url": "https://www.srf.ch/wissen/forschung/ausgezeichnete-forschung-die-erde-ist-ebenso-kugel-wie-scheibe-aber-kein-donut",
+    "published_at": "2026-11-08",
+    "added_at": "2026-11-09"
   },
   "archive": [
+    {
+      "date": "2026-11-08",
+      "headline": "Eiszeitkunst in Touristenhöhle erkannt: 280 Gravuren in Katalonien entdeckt",
+      "summary": "In der Cova de la Font Major in L'Espluga de Francolí, rund 100 Kilometer westlich von Barcelona, haben Forschende rund 280 Gravuren an Wänden und Decke identifiziert. Die Ritzzeichnungen stammen vermutlich aus der Altsteinzeit und könnten bis zu 37.000 Jahre alt sein. Ein Forscherduo zählte darunter 55 Tierdarstellungen, etwa ein Pferd. Die Höhle ist seit 1993 eine Touristenattraktion – die Bedeutung der Bilder wurde aber erst jetzt erkannt. Die Studie erschien in der Fachzeitschrift Antiquity.",
+      "why_positive": "Die Entdeckung zeigt, dass selbst an viel besuchten Orten noch Schätze unserer frühen Geschichte verborgen sein können – und schenkt uns einen neuen Blick auf die Kunst der Menschen der Eiszeit.",
+      "category": "Kultur",
+      "category_key": "kultur",
+      "source_name": "derstandard.at",
+      "source_url": "https://www.derstandard.at/story/3000000347680/kratzbilder-aus-touristischer-hoehle-entpuppen-sich-als-spektakulaere-eiszeitkunst",
+      "published_at": "2026-11-06",
+      "added_at": "2026-11-08"
+    },
     {
       "date": "2026-11-07",
       "headline": "Erstmals seit 200 Jahren: Vier junge Luchse in Baden-Württemberg nachgewiesen",
