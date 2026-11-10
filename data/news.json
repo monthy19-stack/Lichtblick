@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-09"
+    "updated_at": "2026-11-10"
   },
   "current": {
-    "date": "2026-11-09",
-    "headline": "Latsis-Preis 2026: Basler Mathematikerin Susanna Zimmermann ausgezeichnet",
-    "summary": "Die 39-jährige Mathematikerin Susanna Zimmermann erhält den Latsis-Preis 2026, eine der wichtigsten Schweizer Auszeichnungen für Grundlagenforschung. Der Preis ist mit 100.000 Franken dotiert und wird vom Schweizerischen Nationalfonds im Auftrag der Internationalen Latsis-Stiftung vergeben. Die gebürtige Glarnerin ist Professorin an der Universität Basel und forscht in der birationalen Geometrie – also zur Frage, wann zwei geometrische Formen im Kern dasselbe sind. Methoden aus diesem Gebiet sind unter anderem für die digitale Verschlüsselung bedeutsam. Zimmermann betont, dass Grundlagenforschung auch ohne direkte Anwendung wertvoll ist.",
-    "why_positive": "Die Auszeichnung würdigt herausragende Grundlagenforschung und macht eine Frau in der Spitze der Mathematik sichtbar – ein ermutigendes Vorbild für junge Forschende.",
-    "category": "Wissenschaft",
-    "category_key": "wissenschaft",
-    "source_name": "srf.ch",
-    "source_url": "https://www.srf.ch/wissen/forschung/ausgezeichnete-forschung-die-erde-ist-ebenso-kugel-wie-scheibe-aber-kein-donut",
-    "published_at": "2026-11-08",
-    "added_at": "2026-11-09"
+    "date": "2026-11-10",
+    "headline": "Global Carbon Budget: CO₂-Ausstoß aus Kohle, Öl und Gas sinkt 2026 leicht",
+    "summary": "Laut dem neuen Bericht des Global Carbon Project dürften die weltweiten fossilen CO₂-Emissionen 2026 um etwa 0,4 Prozent zurückgehen. Ein Großteil des Rückgangs entfällt auf Öl, vermutlich als kurzfristige Folge des Iran-Konflikts; auch China, die USA, die EU und Japan stoßen weniger aus. Zugleich zeigt die Studie einen längerfristigen Trend: Von 2016 bis 2025 konnten 40 Volkswirtschaften ihre fossilen Emissionen senken und gleichzeitig wachsen – etwa doppelt so viele wie im Jahrzehnt davor. Erneuerbare Energien und E-Autos fangen inzwischen rund zwei Drittel des Emissionsanstiegs durch den wachsenden Energiebedarf ab. Weil die Emissionen aus Landnutzung steigen, nehmen die Gesamtemissionen allerdings noch leicht zu.",
+    "why_positive": "Immer mehr Länder zeigen, dass wirtschaftliches Wachstum und Klimaschutz zusammenpassen, und saubere Technologien bremsen den CO₂-Anstieg spürbar. Die Forschenden betonen: Wird ihr Ausbau beschleunigt, können die Emissionen ihren Höchststand erreichen und dann fallen.",
+    "category": "Umwelt & Klima",
+    "category_key": "umwelt",
+    "source_name": "tagesspiegel.de",
+    "source_url": "https://www.tagesspiegel.de/wissen/erstmals-weniger-co2-aus-kohle-ol-und-gas-freigesetzt-gesamtemissionen-nehmen-2026-dennoch-zu-16260563.html",
+    "published_at": "2026-11-10",
+    "added_at": "2026-11-10"
   },
   "archive": [
+    {
+      "date": "2026-11-09",
+      "headline": "Latsis-Preis 2026: Basler Mathematikerin Susanna Zimmermann ausgezeichnet",
+      "summary": "Die 39-jährige Mathematikerin Susanna Zimmermann erhält den Latsis-Preis 2026, eine der wichtigsten Schweizer Auszeichnungen für Grundlagenforschung. Der Preis ist mit 100.000 Franken dotiert und wird vom Schweizerischen Nationalfonds im Auftrag der Internationalen Latsis-Stiftung vergeben. Die gebürtige Glarnerin ist Professorin an der Universität Basel und forscht in der birationalen Geometrie – also zur Frage, wann zwei geometrische Formen im Kern dasselbe sind. Methoden aus diesem Gebiet sind unter anderem für die digitale Verschlüsselung bedeutsam. Zimmermann betont, dass Grundlagenforschung auch ohne direkte Anwendung wertvoll ist.",
+      "why_positive": "Die Auszeichnung würdigt herausragende Grundlagenforschung und macht eine Frau in der Spitze der Mathematik sichtbar – ein ermutigendes Vorbild für junge Forschende.",
+      "category": "Wissenschaft",
+      "category_key": "wissenschaft",
+      "source_name": "srf.ch",
+      "source_url": "https://www.srf.ch/wissen/forschung/ausgezeichnete-forschung-die-erde-ist-ebenso-kugel-wie-scheibe-aber-kein-donut",
+      "published_at": "2026-11-08",
+      "added_at": "2026-11-09"
+    },
     {
       "date": "2026-11-08",
       "headline": "Eiszeitkunst in Touristenhöhle erkannt: 280 Gravuren in Katalonien entdeckt",
