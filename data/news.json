@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-10"
+    "updated_at": "2026-11-11"
   },
   "current": {
-    "date": "2026-11-10",
-    "headline": "Global Carbon Budget: CO₂-Ausstoß aus Kohle, Öl und Gas sinkt 2026 leicht",
-    "summary": "Laut dem neuen Bericht des Global Carbon Project dürften die weltweiten fossilen CO₂-Emissionen 2026 um etwa 0,4 Prozent zurückgehen. Ein Großteil des Rückgangs entfällt auf Öl, vermutlich als kurzfristige Folge des Iran-Konflikts; auch China, die USA, die EU und Japan stoßen weniger aus. Zugleich zeigt die Studie einen längerfristigen Trend: Von 2016 bis 2025 konnten 40 Volkswirtschaften ihre fossilen Emissionen senken und gleichzeitig wachsen – etwa doppelt so viele wie im Jahrzehnt davor. Erneuerbare Energien und E-Autos fangen inzwischen rund zwei Drittel des Emissionsanstiegs durch den wachsenden Energiebedarf ab. Weil die Emissionen aus Landnutzung steigen, nehmen die Gesamtemissionen allerdings noch leicht zu.",
-    "why_positive": "Immer mehr Länder zeigen, dass wirtschaftliches Wachstum und Klimaschutz zusammenpassen, und saubere Technologien bremsen den CO₂-Anstieg spürbar. Die Forschenden betonen: Wird ihr Ausbau beschleunigt, können die Emissionen ihren Höchststand erreichen und dann fallen.",
-    "category": "Umwelt & Klima",
-    "category_key": "umwelt",
-    "source_name": "tagesspiegel.de",
-    "source_url": "https://www.tagesspiegel.de/wissen/erstmals-weniger-co2-aus-kohle-ol-und-gas-freigesetzt-gesamtemissionen-nehmen-2026-dennoch-zu-16260563.html",
+    "date": "2026-11-11",
+    "headline": "Rekord: Deutsche Sportvereine zählen erstmals über 30 Millionen Mitgliedschaften",
+    "summary": "Die rund 85.000 Sportvereine in Deutschland zählen laut der neuen Bestandserhebung des Deutschen Olympischen Sportbundes (DOSB) 30.082.466 Mitgliedschaften – so viele wie nie seit Beginn der Erhebung 1954. Das entspricht einem Plus von 2,63 Prozent gegenüber dem Vorjahr, bei Frauen wie bei Männern. Die Mitgliederzahlen stiegen in allen 16 Bundesländern, am stärksten in Hamburg, Bayern und Brandenburg. Fußball bleibt mit knapp 8,3 Millionen Mitgliedern die größte Sportart, vor dem Turnen. DOSB-Präsident Thomas Weikert sprach von einem „echten Meilenstein“.",
+    "why_positive": "Immer mehr Menschen bewegen sich gemeinsam im Verein – Orte, an denen laut DOSB Gemeinschaft und Zusammenhalt entstehen. Das stärkt Gesundheit und gesellschaftliches Miteinander gleichermaßen.",
+    "category": "Sport",
+    "category_key": "sport",
+    "source_name": "sportschau.de",
+    "source_url": "https://www.sportschau.de/mehr-sport/dosb-meldet-30-millionen-mitgliedschaften-in-sportvereinen,dosb-mitglieder-100.html",
     "published_at": "2026-11-10",
-    "added_at": "2026-11-10"
+    "added_at": "2026-11-11"
   },
   "archive": [
+    {
+      "date": "2026-11-10",
+      "headline": "Global Carbon Budget: CO₂-Ausstoß aus Kohle, Öl und Gas sinkt 2026 leicht",
+      "summary": "Laut dem neuen Bericht des Global Carbon Project dürften die weltweiten fossilen CO₂-Emissionen 2026 um etwa 0,4 Prozent zurückgehen. Ein Großteil des Rückgangs entfällt auf Öl, vermutlich als kurzfristige Folge des Iran-Konflikts; auch China, die USA, die EU und Japan stoßen weniger aus. Zugleich zeigt die Studie einen längerfristigen Trend: Von 2016 bis 2025 konnten 40 Volkswirtschaften ihre fossilen Emissionen senken und gleichzeitig wachsen – etwa doppelt so viele wie im Jahrzehnt davor. Erneuerbare Energien und E-Autos fangen inzwischen rund zwei Drittel des Emissionsanstiegs durch den wachsenden Energiebedarf ab. Weil die Emissionen aus Landnutzung steigen, nehmen die Gesamtemissionen allerdings noch leicht zu.",
+      "why_positive": "Immer mehr Länder zeigen, dass wirtschaftliches Wachstum und Klimaschutz zusammenpassen, und saubere Technologien bremsen den CO₂-Anstieg spürbar. Die Forschenden betonen: Wird ihr Ausbau beschleunigt, können die Emissionen ihren Höchststand erreichen und dann fallen.",
+      "category": "Umwelt & Klima",
+      "category_key": "umwelt",
+      "source_name": "tagesspiegel.de",
+      "source_url": "https://www.tagesspiegel.de/wissen/erstmals-weniger-co2-aus-kohle-ol-und-gas-freigesetzt-gesamtemissionen-nehmen-2026-dennoch-zu-16260563.html",
+      "published_at": "2026-11-10",
+      "added_at": "2026-11-10"
+    },
     {
       "date": "2026-11-09",
       "headline": "Latsis-Preis 2026: Basler Mathematikerin Susanna Zimmermann ausgezeichnet",
