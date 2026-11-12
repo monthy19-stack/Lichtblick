@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-11"
+    "updated_at": "2026-11-12"
   },
   "current": {
-    "date": "2026-11-11",
-    "headline": "Rekord: Deutsche Sportvereine zählen erstmals über 30 Millionen Mitgliedschaften",
-    "summary": "Die rund 85.000 Sportvereine in Deutschland zählen laut der neuen Bestandserhebung des Deutschen Olympischen Sportbundes (DOSB) 30.082.466 Mitgliedschaften – so viele wie nie seit Beginn der Erhebung 1954. Das entspricht einem Plus von 2,63 Prozent gegenüber dem Vorjahr, bei Frauen wie bei Männern. Die Mitgliederzahlen stiegen in allen 16 Bundesländern, am stärksten in Hamburg, Bayern und Brandenburg. Fußball bleibt mit knapp 8,3 Millionen Mitgliedern die größte Sportart, vor dem Turnen. DOSB-Präsident Thomas Weikert sprach von einem „echten Meilenstein“.",
-    "why_positive": "Immer mehr Menschen bewegen sich gemeinsam im Verein – Orte, an denen laut DOSB Gemeinschaft und Zusammenhalt entstehen. Das stärkt Gesundheit und gesellschaftliches Miteinander gleichermaßen.",
-    "category": "Sport",
-    "category_key": "sport",
-    "source_name": "sportschau.de",
-    "source_url": "https://www.sportschau.de/mehr-sport/dosb-meldet-30-millionen-mitgliedschaften-in-sportvereinen,dosb-mitglieder-100.html",
+    "date": "2026-11-12",
+    "headline": "Fast 100 Jahre verschollen: Äthiopische Wassermaus in Biosphärenreservat wiederentdeckt",
+    "summary": "Im Biosphärenreservat Yayu im Südwesten Äthiopiens ist Mitte Oktober eine Äthiopische Wassermaus (Nilopegamys plumbeus) gefangen worden – eine Art, die seit Jahrzehnten nicht mehr nachgewiesen war. Bekannt war sie bislang nur von einem einzigen Tier, das ein US-Zoologe 1927 in einem Gebirgsbach im äthiopischen Hochland fand und das 1928 beschrieben wurde. Die Weltnaturschutzunion IUCN führte die etwa 15 Zentimeter große Maus mit dem dichten, wasserabweisenden Fell als vom Aussterben bedroht und möglicherweise ausgestorben. Gelungen ist der Fund Mengistu Wale vom Äthiopischen Biodiversitätsinstitut bei einer Bestandsaufnahme, die der NABU angestoßen hatte. „Das ist ein außergewöhnlicher Fund“, sagte Wale.",
+    "why_positive": "Eine Art, die schon als möglicherweise ausgestorben galt, lebt noch – und Forschende können nun erstmals mehr über sie lernen. Der Fund zeigt auch, wie wertvoll geschützte Lebensräume wie das Biosphärenreservat Yayu sind.",
+    "category": "Tiere & Natur",
+    "category_key": "tiere",
+    "source_name": "tagesspiegel.de",
+    "source_url": "https://www.tagesspiegel.de/wissen/fast-100-jahre-verschollen-dieses-scheue-tier-taucht-plotzlich-wieder-auf-16265873.html",
     "published_at": "2026-11-10",
-    "added_at": "2026-11-11"
+    "added_at": "2026-11-12"
   },
   "archive": [
+    {
+      "date": "2026-11-11",
+      "headline": "Rekord: Deutsche Sportvereine zählen erstmals über 30 Millionen Mitgliedschaften",
+      "summary": "Die rund 85.000 Sportvereine in Deutschland zählen laut der neuen Bestandserhebung des Deutschen Olympischen Sportbundes (DOSB) 30.082.466 Mitgliedschaften – so viele wie nie seit Beginn der Erhebung 1954. Das entspricht einem Plus von 2,63 Prozent gegenüber dem Vorjahr, bei Frauen wie bei Männern. Die Mitgliederzahlen stiegen in allen 16 Bundesländern, am stärksten in Hamburg, Bayern und Brandenburg. Fußball bleibt mit knapp 8,3 Millionen Mitgliedern die größte Sportart, vor dem Turnen. DOSB-Präsident Thomas Weikert sprach von einem „echten Meilenstein“.",
+      "why_positive": "Immer mehr Menschen bewegen sich gemeinsam im Verein – Orte, an denen laut DOSB Gemeinschaft und Zusammenhalt entstehen. Das stärkt Gesundheit und gesellschaftliches Miteinander gleichermaßen.",
+      "category": "Sport",
+      "category_key": "sport",
+      "source_name": "sportschau.de",
+      "source_url": "https://www.sportschau.de/mehr-sport/dosb-meldet-30-millionen-mitgliedschaften-in-sportvereinen,dosb-mitglieder-100.html",
+      "published_at": "2026-11-10",
+      "added_at": "2026-11-11"
+    },
     {
       "date": "2026-11-10",
       "headline": "Global Carbon Budget: CO₂-Ausstoß aus Kohle, Öl und Gas sinkt 2026 leicht",
