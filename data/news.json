@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-12"
+    "updated_at": "2026-11-13"
   },
   "current": {
-    "date": "2026-11-12",
-    "headline": "Fast 100 Jahre verschollen: Äthiopische Wassermaus in Biosphärenreservat wiederentdeckt",
-    "summary": "Im Biosphärenreservat Yayu im Südwesten Äthiopiens ist Mitte Oktober eine Äthiopische Wassermaus (Nilopegamys plumbeus) gefangen worden – eine Art, die seit Jahrzehnten nicht mehr nachgewiesen war. Bekannt war sie bislang nur von einem einzigen Tier, das ein US-Zoologe 1927 in einem Gebirgsbach im äthiopischen Hochland fand und das 1928 beschrieben wurde. Die Weltnaturschutzunion IUCN führte die etwa 15 Zentimeter große Maus mit dem dichten, wasserabweisenden Fell als vom Aussterben bedroht und möglicherweise ausgestorben. Gelungen ist der Fund Mengistu Wale vom Äthiopischen Biodiversitätsinstitut bei einer Bestandsaufnahme, die der NABU angestoßen hatte. „Das ist ein außergewöhnlicher Fund“, sagte Wale.",
-    "why_positive": "Eine Art, die schon als möglicherweise ausgestorben galt, lebt noch – und Forschende können nun erstmals mehr über sie lernen. Der Fund zeigt auch, wie wertvoll geschützte Lebensräume wie das Biosphärenreservat Yayu sind.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
-    "source_name": "tagesspiegel.de",
-    "source_url": "https://www.tagesspiegel.de/wissen/fast-100-jahre-verschollen-dieses-scheue-tier-taucht-plotzlich-wieder-auf-16265873.html",
-    "published_at": "2026-11-10",
-    "added_at": "2026-11-12"
+    "date": "2026-11-13",
+    "headline": "Nach sechs Tagen in der Wildnis: 17-Jähriger in Australien lebend gefunden",
+    "summary": "In den Wäldern nahe dem früheren Goldgräberort Walhalla, rund 185 Kilometer östlich von Melbourne, ist ein vermisster 17-Jähriger nach sechs Tagen lebend gefunden worden. William, der laut seiner Familie Autismus der Stufe 2 hat, war beim Campen mit einem Freund vom Zeltplatz aufgebrochen, um Ausrüstung zu holen, und kehrte nicht zurück. Mehr als 100 Einsatzkräfte und Freiwillige suchten nach ihm. Eine Hubschrauberbesatzung der Polizei entdeckte ihn schließlich schlafend auf einem Felsen an einem Bach, etwa zwei Kilometer vom Zeltplatz entfernt; er gab der Crew ein Daumen-hoch und wurde per Seilwinde gerettet. Laut Polizei war er guter Dinge und weitgehend gesund; seine Mutter sagte, sie sei überglücklich.",
+    "why_positive": "Die ausdauernde Suche von über 100 Helferinnen und Helfern hat sich gelohnt: Ein junger Mensch ist wohlbehalten zurück bei seiner Familie.",
+    "category": "Gesellschaft",
+    "category_key": "gesellschaft",
+    "source_name": "cbsnews.com",
+    "source_url": "https://www.cbsnews.com/news/teen-found-alive-6-days-lost-australia-wilderness/",
+    "published_at": "2026-11-12",
+    "added_at": "2026-11-13"
   },
   "archive": [
+    {
+      "date": "2026-11-12",
+      "headline": "Fast 100 Jahre verschollen: Äthiopische Wassermaus in Biosphärenreservat wiederentdeckt",
+      "summary": "Im Biosphärenreservat Yayu im Südwesten Äthiopiens ist Mitte Oktober eine Äthiopische Wassermaus (Nilopegamys plumbeus) gefangen worden – eine Art, die seit Jahrzehnten nicht mehr nachgewiesen war. Bekannt war sie bislang nur von einem einzigen Tier, das ein US-Zoologe 1927 in einem Gebirgsbach im äthiopischen Hochland fand und das 1928 beschrieben wurde. Die Weltnaturschutzunion IUCN führte die etwa 15 Zentimeter große Maus mit dem dichten, wasserabweisenden Fell als vom Aussterben bedroht und möglicherweise ausgestorben. Gelungen ist der Fund Mengistu Wale vom Äthiopischen Biodiversitätsinstitut bei einer Bestandsaufnahme, die der NABU angestoßen hatte. „Das ist ein außergewöhnlicher Fund“, sagte Wale.",
+      "why_positive": "Eine Art, die schon als möglicherweise ausgestorben galt, lebt noch – und Forschende können nun erstmals mehr über sie lernen. Der Fund zeigt auch, wie wertvoll geschützte Lebensräume wie das Biosphärenreservat Yayu sind.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "tagesspiegel.de",
+      "source_url": "https://www.tagesspiegel.de/wissen/fast-100-jahre-verschollen-dieses-scheue-tier-taucht-plotzlich-wieder-auf-16265873.html",
+      "published_at": "2026-11-10",
+      "added_at": "2026-11-12"
+    },
     {
       "date": "2026-11-11",
       "headline": "Rekord: Deutsche Sportvereine zählen erstmals über 30 Millionen Mitgliedschaften",
