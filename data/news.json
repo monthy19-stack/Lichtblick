@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-13"
+    "updated_at": "2026-11-14"
   },
   "current": {
-    "date": "2026-11-13",
-    "headline": "Nach sechs Tagen in der Wildnis: 17-Jähriger in Australien lebend gefunden",
-    "summary": "In den Wäldern nahe dem früheren Goldgräberort Walhalla, rund 185 Kilometer östlich von Melbourne, ist ein vermisster 17-Jähriger nach sechs Tagen lebend gefunden worden. William, der laut seiner Familie Autismus der Stufe 2 hat, war beim Campen mit einem Freund vom Zeltplatz aufgebrochen, um Ausrüstung zu holen, und kehrte nicht zurück. Mehr als 100 Einsatzkräfte und Freiwillige suchten nach ihm. Eine Hubschrauberbesatzung der Polizei entdeckte ihn schließlich schlafend auf einem Felsen an einem Bach, etwa zwei Kilometer vom Zeltplatz entfernt; er gab der Crew ein Daumen-hoch und wurde per Seilwinde gerettet. Laut Polizei war er guter Dinge und weitgehend gesund; seine Mutter sagte, sie sei überglücklich.",
-    "why_positive": "Die ausdauernde Suche von über 100 Helferinnen und Helfern hat sich gelohnt: Ein junger Mensch ist wohlbehalten zurück bei seiner Familie.",
-    "category": "Gesellschaft",
-    "category_key": "gesellschaft",
-    "source_name": "cbsnews.com",
-    "source_url": "https://www.cbsnews.com/news/teen-found-alive-6-days-lost-australia-wilderness/",
+    "date": "2026-11-14",
+    "headline": "Legendärer Ozeandampfer SS United States wird vor Florida zum künstlichen Riff",
+    "summary": "Die SS United States, mit rund 300 Metern das größte je in den USA gebaute Passagierschiff, ist am Mittwoch etwa 20 Seemeilen vor der Golfküste Floridas gezielt versenkt worden. Das Schiff, das seit 1952 den bis heute gültigen Geschwindigkeitsrekord für Passagierschiffe auf der Transatlantikroute hält, liegt nun aufrecht in rund 55 Metern Tiefe. Zuvor war es etwa ein Jahr lang in einer Werft in Alabama vorbereitet worden; dabei wurden umweltgefährdende Stoffe wie Treibstoff und Kabel entfernt. Nach jahrzehntelangem Stillstand in Philadelphia soll das Wrack nun von Meerestieren besiedelt werden und laut Reuters zum größten künstlichen Riff der Welt werden.",
+    "why_positive": "Statt verschrottet zu werden, bekommt ein Stück Seefahrtsgeschichte eine neue Aufgabe: als Lebensraum für Meerestiere und als Ziel für Taucherinnen und Taucher.",
+    "category": "Umwelt & Klima",
+    "category_key": "umwelt",
+    "source_name": "berliner-zeitung.de",
+    "source_url": "https://www.berliner-zeitung.de/article/rund-300-meter-lang-historisches-passagierschiff-ss-united-states-vor-florida-versenkt-10589036",
     "published_at": "2026-11-12",
-    "added_at": "2026-11-13"
+    "added_at": "2026-11-14"
   },
   "archive": [
+    {
+      "date": "2026-11-13",
+      "headline": "Nach sechs Tagen in der Wildnis: 17-Jähriger in Australien lebend gefunden",
+      "summary": "In den Wäldern nahe dem früheren Goldgräberort Walhalla, rund 185 Kilometer östlich von Melbourne, ist ein vermisster 17-Jähriger nach sechs Tagen lebend gefunden worden. William, der laut seiner Familie Autismus der Stufe 2 hat, war beim Campen mit einem Freund vom Zeltplatz aufgebrochen, um Ausrüstung zu holen, und kehrte nicht zurück. Mehr als 100 Einsatzkräfte und Freiwillige suchten nach ihm. Eine Hubschrauberbesatzung der Polizei entdeckte ihn schließlich schlafend auf einem Felsen an einem Bach, etwa zwei Kilometer vom Zeltplatz entfernt; er gab der Crew ein Daumen-hoch und wurde per Seilwinde gerettet. Laut Polizei war er guter Dinge und weitgehend gesund; seine Mutter sagte, sie sei überglücklich.",
+      "why_positive": "Die ausdauernde Suche von über 100 Helferinnen und Helfern hat sich gelohnt: Ein junger Mensch ist wohlbehalten zurück bei seiner Familie.",
+      "category": "Gesellschaft",
+      "category_key": "gesellschaft",
+      "source_name": "cbsnews.com",
+      "source_url": "https://www.cbsnews.com/news/teen-found-alive-6-days-lost-australia-wilderness/",
+      "published_at": "2026-11-12",
+      "added_at": "2026-11-13"
+    },
     {
       "date": "2026-11-12",
       "headline": "Fast 100 Jahre verschollen: Äthiopische Wassermaus in Biosphärenreservat wiederentdeckt",
