@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-14"
+    "updated_at": "2026-11-15"
   },
   "current": {
-    "date": "2026-11-14",
-    "headline": "Legendärer Ozeandampfer SS United States wird vor Florida zum künstlichen Riff",
-    "summary": "Die SS United States, mit rund 300 Metern das größte je in den USA gebaute Passagierschiff, ist am Mittwoch etwa 20 Seemeilen vor der Golfküste Floridas gezielt versenkt worden. Das Schiff, das seit 1952 den bis heute gültigen Geschwindigkeitsrekord für Passagierschiffe auf der Transatlantikroute hält, liegt nun aufrecht in rund 55 Metern Tiefe. Zuvor war es etwa ein Jahr lang in einer Werft in Alabama vorbereitet worden; dabei wurden umweltgefährdende Stoffe wie Treibstoff und Kabel entfernt. Nach jahrzehntelangem Stillstand in Philadelphia soll das Wrack nun von Meerestieren besiedelt werden und laut Reuters zum größten künstlichen Riff der Welt werden.",
-    "why_positive": "Statt verschrottet zu werden, bekommt ein Stück Seefahrtsgeschichte eine neue Aufgabe: als Lebensraum für Meerestiere und als Ziel für Taucherinnen und Taucher.",
-    "category": "Umwelt & Klima",
-    "category_key": "umwelt",
-    "source_name": "berliner-zeitung.de",
-    "source_url": "https://www.berliner-zeitung.de/article/rund-300-meter-lang-historisches-passagierschiff-ss-united-states-vor-florida-versenkt-10589036",
+    "date": "2026-11-15",
+    "headline": "Apnoe-Weltrekord: Ukrainerin Sadurska taucht als erste Frau 90 Meter ohne Flossen",
+    "summary": "Die ukrainische Freitaucherin Kateryna Sadurska hat einen neuen Weltrekord aufgestellt. Beim Wettbewerb „Blue Element“ vor der Karibikinsel Dominica tauchte die 34-Jährige mit einem einzigen Atemzug 90 Meter tief – in der Disziplin „Constant Weight No Fins“, bei der weder Flossen noch Schlitten erlaubt sind. Damit erreichte erstmals eine Frau diese Tiefe ohne Hilfsmittel. Ihren eigenen Rekord aus dem Vorjahr verbesserte sie um zwei Meter; der gesamte Tauchgang dauerte 3 Minuten und 33 Sekunden. Den Rekord widmete Sadurska den Menschen in der Ukraine.",
+    "why_positive": "Eine sportliche Höchstleistung, die zeigt, wozu Training, Ausdauer und Willenskraft fähig sind – und ein Moment der Freude, den die Athletin ihrem Land schenkt.",
+    "category": "Sport",
+    "category_key": "sport",
+    "source_name": "srf.ch",
+    "source_url": "https://www.srf.ch/sport/mehr-sport/erneuter-weltrekord-apnoe-taucherin-sadurska-knackt-magische-90-m-marke",
     "published_at": "2026-11-12",
-    "added_at": "2026-11-14"
+    "added_at": "2026-11-15"
   },
   "archive": [
+    {
+      "date": "2026-11-14",
+      "headline": "Legendärer Ozeandampfer SS United States wird vor Florida zum künstlichen Riff",
+      "summary": "Die SS United States, mit rund 300 Metern das größte je in den USA gebaute Passagierschiff, ist am Mittwoch etwa 20 Seemeilen vor der Golfküste Floridas gezielt versenkt worden. Das Schiff, das seit 1952 den bis heute gültigen Geschwindigkeitsrekord für Passagierschiffe auf der Transatlantikroute hält, liegt nun aufrecht in rund 55 Metern Tiefe. Zuvor war es etwa ein Jahr lang in einer Werft in Alabama vorbereitet worden; dabei wurden umweltgefährdende Stoffe wie Treibstoff und Kabel entfernt. Nach jahrzehntelangem Stillstand in Philadelphia soll das Wrack nun von Meerestieren besiedelt werden und laut Reuters zum größten künstlichen Riff der Welt werden.",
+      "why_positive": "Statt verschrottet zu werden, bekommt ein Stück Seefahrtsgeschichte eine neue Aufgabe: als Lebensraum für Meerestiere und als Ziel für Taucherinnen und Taucher.",
+      "category": "Umwelt & Klima",
+      "category_key": "umwelt",
+      "source_name": "berliner-zeitung.de",
+      "source_url": "https://www.berliner-zeitung.de/article/rund-300-meter-lang-historisches-passagierschiff-ss-united-states-vor-florida-versenkt-10589036",
+      "published_at": "2026-11-12",
+      "added_at": "2026-11-14"
+    },
     {
       "date": "2026-11-13",
       "headline": "Nach sechs Tagen in der Wildnis: 17-Jähriger in Australien lebend gefunden",
