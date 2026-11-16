@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-15"
+    "updated_at": "2026-11-16"
   },
   "current": {
-    "date": "2026-11-15",
-    "headline": "Apnoe-Weltrekord: Ukrainerin Sadurska taucht als erste Frau 90 Meter ohne Flossen",
-    "summary": "Die ukrainische Freitaucherin Kateryna Sadurska hat einen neuen Weltrekord aufgestellt. Beim Wettbewerb „Blue Element“ vor der Karibikinsel Dominica tauchte die 34-Jährige mit einem einzigen Atemzug 90 Meter tief – in der Disziplin „Constant Weight No Fins“, bei der weder Flossen noch Schlitten erlaubt sind. Damit erreichte erstmals eine Frau diese Tiefe ohne Hilfsmittel. Ihren eigenen Rekord aus dem Vorjahr verbesserte sie um zwei Meter; der gesamte Tauchgang dauerte 3 Minuten und 33 Sekunden. Den Rekord widmete Sadurska den Menschen in der Ukraine.",
-    "why_positive": "Eine sportliche Höchstleistung, die zeigt, wozu Training, Ausdauer und Willenskraft fähig sind – und ein Moment der Freude, den die Athletin ihrem Land schenkt.",
-    "category": "Sport",
-    "category_key": "sport",
+    "date": "2026-11-16",
+    "headline": "SpaceX fängt erstmals die Starship-Oberstufe nach einem Weltraumflug wieder auf",
+    "summary": "Beim 15. Testflug des Raketensystems Starship ist SpaceX ein Meilenstein gelungen: Rund 20 Stunden nach dem Start in Texas kehrte die Oberstufe aus der Erdumlaufbahn zurück und wurde von mechanischen Greifarmen am Startturm aufgefangen. Erstmals konnte damit eine Oberstufe nach einem Flug ins All wieder eingefangen werden. Zuvor hatte sie die Erde mehrfach umrundet und Satelliten ausgesetzt. Der Booster Super Heavy wurde diesmal nicht gefangen, sondern ging kontrolliert im Meer nieder. NASA-Chef Jared Isaacman gratulierte und nannte das Manöver „fast wie Magie“.",
+    "why_positive": "Wiederverwendbare Raketen können die Raumfahrt deutlich günstiger machen – ein wichtiger Schritt auf dem Weg zu künftigen Missionen zu Mond und Mars.",
+    "category": "Technologie",
+    "category_key": "technologie",
     "source_name": "srf.ch",
-    "source_url": "https://www.srf.ch/sport/mehr-sport/erneuter-weltrekord-apnoe-taucherin-sadurska-knackt-magische-90-m-marke",
-    "published_at": "2026-11-12",
-    "added_at": "2026-11-15"
+    "source_url": "https://www.srf.ch/news/international/us-raumfahrtunternehmen-spacex-spacex-faengt-starship-rakete-erstmals-mit-greifarmen-auf",
+    "published_at": "2026-11-15",
+    "added_at": "2026-11-16"
   },
   "archive": [
+    {
+      "date": "2026-11-15",
+      "headline": "Apnoe-Weltrekord: Ukrainerin Sadurska taucht als erste Frau 90 Meter ohne Flossen",
+      "summary": "Die ukrainische Freitaucherin Kateryna Sadurska hat einen neuen Weltrekord aufgestellt. Beim Wettbewerb „Blue Element“ vor der Karibikinsel Dominica tauchte die 34-Jährige mit einem einzigen Atemzug 90 Meter tief – in der Disziplin „Constant Weight No Fins“, bei der weder Flossen noch Schlitten erlaubt sind. Damit erreichte erstmals eine Frau diese Tiefe ohne Hilfsmittel. Ihren eigenen Rekord aus dem Vorjahr verbesserte sie um zwei Meter; der gesamte Tauchgang dauerte 3 Minuten und 33 Sekunden. Den Rekord widmete Sadurska den Menschen in der Ukraine.",
+      "why_positive": "Eine sportliche Höchstleistung, die zeigt, wozu Training, Ausdauer und Willenskraft fähig sind – und ein Moment der Freude, den die Athletin ihrem Land schenkt.",
+      "category": "Sport",
+      "category_key": "sport",
+      "source_name": "srf.ch",
+      "source_url": "https://www.srf.ch/sport/mehr-sport/erneuter-weltrekord-apnoe-taucherin-sadurska-knackt-magische-90-m-marke",
+      "published_at": "2026-11-12",
+      "added_at": "2026-11-15"
+    },
     {
       "date": "2026-11-14",
       "headline": "Legendärer Ozeandampfer SS United States wird vor Florida zum künstlichen Riff",
