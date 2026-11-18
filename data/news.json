@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-18"
   },
   "current": {
-    "date": "2026-11-17",
-    "headline": "Sonnenstrom-Rekord: Deutschland erzeugt schon mehr Solarstrom als im ganzen Vorjahr",
-    "summary": "Deutschland steuert beim Solarstrom auf einen historischen Rekord zu: Erstmals könnten in einem Kalenderjahr mehr als 100 Terawattstunden erzeugt werden. Bis Ende September kamen laut Branchenverband BSW-Solar auf Basis der Energy-Charts des Fraunhofer ISE bereits 90,2 Terawattstunden zusammen – mehr als im gesamten Jahr 2025. Gründe sind ungewöhnlich viele Sonnenstunden und der weitere Ausbau der Photovoltaik. Vor zwanzig Jahren lag die Jahresproduktion noch bei 2,2 Terawattstunden.",
-    "why_positive": "Sauberer Strom aus Sonnenenergie ist in Deutschland von einer Nischentechnik zu einer tragenden Säule der Stromversorgung geworden. Jede Kilowattstunde vom Dach oder aus dem Solarpark hilft, klimaschädliche Emissionen zu vermeiden.",
-    "category": "Umwelt & Klima",
-    "category_key": "umwelt",
-    "source_name": "handelsblatt.com",
-    "source_url": "https://www.handelsblatt.com/politik/deutschland/energiewende-produktion-von-sonnenstrom-steuert-auf-rekord-zu/100269842.html",
-    "published_at": "2026-11-14",
-    "added_at": "2026-11-17"
+    "date": "2026-11-18",
+    "headline": "EU lässt neues Medikament gegen fortgeschrittenen Bauchspeicheldrüsenkrebs zu",
+    "summary": "Die Europäische Kommission hat am 17. November den Wirkstoff Daraxonrasib zugelassen, der in den USA bereits als Rasonque verfügbar ist. Die zielgerichtete Therapie unterbricht ein dauerhaftes Wachstumssignal, das durch eine häufige Veränderung im RAS-Gen entsteht – der Tumor wächst nicht weiter und verkleinert sich in den meisten Fällen. In der Zulassungsstudie lebten Patientinnen und Patienten mit dem Medikament im Schnitt etwa sechseinhalb Monate länger als mit einer weiteren Chemotherapie. Zugelassen ist es vorerst für Erkrankte mit Metastasen, die bereits vorbehandelt wurden; heilen kann es den Krebs nicht. Studien für einen früheren Einsatz laufen bereits, unter anderem an der MedUni Wien.",
+    "why_positive": "Bauchspeicheldrüsenkrebs gehört zu den tödlichsten Krebsarten, und neue wirksame Therapien sind selten. Das Medikament schenkt Betroffenen wertvolle Lebenszeit und öffnet die Tür für weitere zielgerichtete Behandlungen.",
+    "category": "Gesundheit",
+    "category_key": "gesundheit",
+    "source_name": "science.orf.at",
+    "source_url": "https://science.orf.at/stories/3238117/",
+    "published_at": "2026-11-17",
+    "added_at": "2026-11-18"
   },
   "archive": [
+    {
+      "date": "2026-11-17",
+      "headline": "Sonnenstrom-Rekord: Deutschland erzeugt schon mehr Solarstrom als im ganzen Vorjahr",
+      "summary": "Deutschland steuert beim Solarstrom auf einen historischen Rekord zu: Erstmals könnten in einem Kalenderjahr mehr als 100 Terawattstunden erzeugt werden. Bis Ende September kamen laut Branchenverband BSW-Solar auf Basis der Energy-Charts des Fraunhofer ISE bereits 90,2 Terawattstunden zusammen – mehr als im gesamten Jahr 2025. Gründe sind ungewöhnlich viele Sonnenstunden und der weitere Ausbau der Photovoltaik. Vor zwanzig Jahren lag die Jahresproduktion noch bei 2,2 Terawattstunden.",
+      "why_positive": "Sauberer Strom aus Sonnenenergie ist in Deutschland von einer Nischentechnik zu einer tragenden Säule der Stromversorgung geworden. Jede Kilowattstunde vom Dach oder aus dem Solarpark hilft, klimaschädliche Emissionen zu vermeiden.",
+      "category": "Umwelt & Klima",
+      "category_key": "umwelt",
+      "source_name": "handelsblatt.com",
+      "source_url": "https://www.handelsblatt.com/politik/deutschland/energiewende-produktion-von-sonnenstrom-steuert-auf-rekord-zu/100269842.html",
+      "published_at": "2026-11-14",
+      "added_at": "2026-11-17"
+    },
     {
       "date": "2026-11-16",
       "headline": "SpaceX fängt erstmals die Starship-Oberstufe nach einem Weltraumflug wieder auf",
