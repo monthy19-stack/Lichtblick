@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-19"
+    "updated_at": "2026-11-20"
   },
   "current": {
-    "date": "2026-11-19",
-    "headline": "Drohnen fangen Walatem ein: Erbgut von Buckelwalen ohne Biopsie untersucht",
-    "summary": "Ein Team um die Meeresbiologin Éadin O'Mahony von der Universität St. Andrews hat vor der Küste von British Columbia mit kleinen Drohnen die Atemstöße von Buckelwalen gesammelt. Die Drohnen fliegen durch die Atemwolken, sterile Petrischalen fangen den sogenannten Walrotz auf. Aus 58 Proben von 26 Tieren stammten rund 84 Prozent der DNA von den Walen selbst. Die Analysen bestimmten das Geschlecht korrekt, bestätigten bekannte genetische Unterschiede zwischen Nordpazifik und Nordatlantik und zeigten drei bisher unbekannte mitochondriale DNA-Varianten. Die Studie erschien im Fachjournal „Molecular Ecology Resources“.",
-    "why_positive": "Bisher waren für solche Genanalysen Biopsien mit Dartpfeilen nötig, die die Tiere stören können. Die schonende Methode soll künftig helfen, Gesundheit und Verwandtschaft von Walen zu erforschen und sie besser zu schützen.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
-    "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3238235/",
-    "published_at": "2026-11-17",
-    "added_at": "2026-11-19"
+    "date": "2026-11-20",
+    "headline": "Licht statt Strom: Karlsruher Team erhält Deutschen Zukunftspreis 2026",
+    "summary": "Bundespräsident Frank-Walter Steinmeier hat in Berlin den Deutschen Zukunftspreis an ein Team aus Karlsruhe verliehen: Christian Koos vom Karlsruher Institut für Technologie (KIT), Matthias Lauermann von Vanguard Automation und Philipp Dietrich von Keystone Photonics. Die Forscher setzen darauf, Daten mit Licht statt mit Strom zu übertragen. Mit hochauflösendem 3D-Druck im Nanomaßstab verbinden sie optische Mikrochips und Glasfasern automatisch über winzige dreidimensionale Lichtleiter, sogenannte photonische Wirebonds. Das soll aufwendige bisherige Verbindungstechnik ersetzen und eine Massenfertigung ermöglichen. Der Preis wurde zum 30. Mal vergeben und ist mit 250.000 Euro dotiert.",
+    "why_positive": "Mit Digitalisierung und KI wachsen die Datenmengen, und elektrische Übertragung verursacht dabei steigenden Energieverbrauch, Wärme und Signalverluste. Die ausgezeichnete Technik kann helfen, leistungsfähigere und effizientere Datennetze und Rechenzentren zu bauen.",
+    "category": "Technologie",
+    "category_key": "technologie",
+    "source_name": "zdfheute.de",
+    "source_url": "https://www.zdfheute.de/wissen/deutscher-zukunftspreis-forscher-wissenschaft-steinmeier-100.html",
+    "published_at": "2026-11-18",
+    "added_at": "2026-11-20"
   },
   "archive": [
+    {
+      "date": "2026-11-19",
+      "headline": "Drohnen fangen Walatem ein: Erbgut von Buckelwalen ohne Biopsie untersucht",
+      "summary": "Ein Team um die Meeresbiologin Éadin O'Mahony von der Universität St. Andrews hat vor der Küste von British Columbia mit kleinen Drohnen die Atemstöße von Buckelwalen gesammelt. Die Drohnen fliegen durch die Atemwolken, sterile Petrischalen fangen den sogenannten Walrotz auf. Aus 58 Proben von 26 Tieren stammten rund 84 Prozent der DNA von den Walen selbst. Die Analysen bestimmten das Geschlecht korrekt, bestätigten bekannte genetische Unterschiede zwischen Nordpazifik und Nordatlantik und zeigten drei bisher unbekannte mitochondriale DNA-Varianten. Die Studie erschien im Fachjournal „Molecular Ecology Resources“.",
+      "why_positive": "Bisher waren für solche Genanalysen Biopsien mit Dartpfeilen nötig, die die Tiere stören können. Die schonende Methode soll künftig helfen, Gesundheit und Verwandtschaft von Walen zu erforschen und sie besser zu schützen.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3238235/",
+      "published_at": "2026-11-17",
+      "added_at": "2026-11-19"
+    },
     {
       "date": "2026-11-18",
       "headline": "EU lässt neues Medikament gegen fortgeschrittenen Bauchspeicheldrüsenkrebs zu",
