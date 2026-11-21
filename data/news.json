@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-21"
   },
   "current": {
-    "date": "2026-11-20",
-    "headline": "Licht statt Strom: Karlsruher Team erhält Deutschen Zukunftspreis 2026",
-    "summary": "Bundespräsident Frank-Walter Steinmeier hat in Berlin den Deutschen Zukunftspreis an ein Team aus Karlsruhe verliehen: Christian Koos vom Karlsruher Institut für Technologie (KIT), Matthias Lauermann von Vanguard Automation und Philipp Dietrich von Keystone Photonics. Die Forscher setzen darauf, Daten mit Licht statt mit Strom zu übertragen. Mit hochauflösendem 3D-Druck im Nanomaßstab verbinden sie optische Mikrochips und Glasfasern automatisch über winzige dreidimensionale Lichtleiter, sogenannte photonische Wirebonds. Das soll aufwendige bisherige Verbindungstechnik ersetzen und eine Massenfertigung ermöglichen. Der Preis wurde zum 30. Mal vergeben und ist mit 250.000 Euro dotiert.",
-    "why_positive": "Mit Digitalisierung und KI wachsen die Datenmengen, und elektrische Übertragung verursacht dabei steigenden Energieverbrauch, Wärme und Signalverluste. Die ausgezeichnete Technik kann helfen, leistungsfähigere und effizientere Datennetze und Rechenzentren zu bauen.",
-    "category": "Technologie",
-    "category_key": "technologie",
-    "source_name": "zdfheute.de",
-    "source_url": "https://www.zdfheute.de/wissen/deutscher-zukunftspreis-forscher-wissenschaft-steinmeier-100.html",
-    "published_at": "2026-11-18",
-    "added_at": "2026-11-20"
+    "date": "2026-11-21",
+    "headline": "Internationaler Kinderfriedenspreis für 17-jährigen Klimaaktivisten aus Kolumbien",
+    "summary": "Der 17-jährige Kolumbianer Francisco Javier Vera Manzanares hat in Den Haag den Internationalen Kinderfriedenspreis erhalten. Die niederländische Stiftung KidsRights würdigt damit, dass er Kinderrechte in den Mittelpunkt des Einsatzes für Klimagerechtigkeit stellt; er wurde aus 280 Nominierungen aus 57 Ländern ausgewählt. Überreicht wurde der Preis im Friedenspalast von Friedensnobelpreisträger Kailash Satyarthi. Vera begann 2019 mit neun Jahren, nachdem Waldbrände den Amazonas verwüstet hatten, und sprach im selben Jahr als erstes Kind vor dem kolumbianischen Kongress. Seine Bewegung „Guardianes por la Vida“ zählt über 1400 Kinder und Jugendliche und hat mehr als 5000 Bäume in Lateinamerika und Europa gepflanzt.",
+    "why_positive": "Der Preis macht sichtbar, wie viel junge Menschen friedlich für Umwelt und Zukunft bewegen können. Er stärkt einem Jugendlichen den Rücken, der wegen Drohungen ins Exil nach Spanien gehen musste, und gibt seinem Anliegen eine internationale Bühne.",
+    "category": "Gesellschaft",
+    "category_key": "gesellschaft",
+    "source_name": "nos.nl",
+    "source_url": "https://nos.nl/artikel/2640199-kindervredesprijs-voor-gevluchte-colombiaanse-klimaatactivist-francisco-vera-17",
+    "published_at": "2026-11-19",
+    "added_at": "2026-11-21"
   },
   "archive": [
+    {
+      "date": "2026-11-20",
+      "headline": "Licht statt Strom: Karlsruher Team erhält Deutschen Zukunftspreis 2026",
+      "summary": "Bundespräsident Frank-Walter Steinmeier hat in Berlin den Deutschen Zukunftspreis an ein Team aus Karlsruhe verliehen: Christian Koos vom Karlsruher Institut für Technologie (KIT), Matthias Lauermann von Vanguard Automation und Philipp Dietrich von Keystone Photonics. Die Forscher setzen darauf, Daten mit Licht statt mit Strom zu übertragen. Mit hochauflösendem 3D-Druck im Nanomaßstab verbinden sie optische Mikrochips und Glasfasern automatisch über winzige dreidimensionale Lichtleiter, sogenannte photonische Wirebonds. Das soll aufwendige bisherige Verbindungstechnik ersetzen und eine Massenfertigung ermöglichen. Der Preis wurde zum 30. Mal vergeben und ist mit 250.000 Euro dotiert.",
+      "why_positive": "Mit Digitalisierung und KI wachsen die Datenmengen, und elektrische Übertragung verursacht dabei steigenden Energieverbrauch, Wärme und Signalverluste. Die ausgezeichnete Technik kann helfen, leistungsfähigere und effizientere Datennetze und Rechenzentren zu bauen.",
+      "category": "Technologie",
+      "category_key": "technologie",
+      "source_name": "zdfheute.de",
+      "source_url": "https://www.zdfheute.de/wissen/deutscher-zukunftspreis-forscher-wissenschaft-steinmeier-100.html",
+      "published_at": "2026-11-18",
+      "added_at": "2026-11-20"
+    },
     {
       "date": "2026-11-19",
       "headline": "Drohnen fangen Walatem ein: Erbgut von Buckelwalen ohne Biopsie untersucht",
