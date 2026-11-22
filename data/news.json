@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-21"
+    "updated_at": "2026-11-22"
   },
   "current": {
-    "date": "2026-11-21",
-    "headline": "Internationaler Kinderfriedenspreis für 17-jährigen Klimaaktivisten aus Kolumbien",
-    "summary": "Der 17-jährige Kolumbianer Francisco Javier Vera Manzanares hat in Den Haag den Internationalen Kinderfriedenspreis erhalten. Die niederländische Stiftung KidsRights würdigt damit, dass er Kinderrechte in den Mittelpunkt des Einsatzes für Klimagerechtigkeit stellt; er wurde aus 280 Nominierungen aus 57 Ländern ausgewählt. Überreicht wurde der Preis im Friedenspalast von Friedensnobelpreisträger Kailash Satyarthi. Vera begann 2019 mit neun Jahren, nachdem Waldbrände den Amazonas verwüstet hatten, und sprach im selben Jahr als erstes Kind vor dem kolumbianischen Kongress. Seine Bewegung „Guardianes por la Vida“ zählt über 1400 Kinder und Jugendliche und hat mehr als 5000 Bäume in Lateinamerika und Europa gepflanzt.",
-    "why_positive": "Der Preis macht sichtbar, wie viel junge Menschen friedlich für Umwelt und Zukunft bewegen können. Er stärkt einem Jugendlichen den Rücken, der wegen Drohungen ins Exil nach Spanien gehen musste, und gibt seinem Anliegen eine internationale Bühne.",
-    "category": "Gesellschaft",
-    "category_key": "gesellschaft",
-    "source_name": "nos.nl",
-    "source_url": "https://nos.nl/artikel/2640199-kindervredesprijs-voor-gevluchte-colombiaanse-klimaatactivist-francisco-vera-17",
-    "published_at": "2026-11-19",
-    "added_at": "2026-11-21"
+    "date": "2026-11-22",
+    "headline": "Zwei neue Bärtierchenarten an einem Unterwasserberg im Atlantik entdeckt",
+    "summary": "Forschende des Instituts Senckenberg am Meer in Wilhelmshaven haben zwei bislang unbekannte Bärtierchenarten beschrieben. Gefunden wurden die winzigen, gepanzerten Tiere in Sedimentproben vom Senghor-Seamount, einem Unterwasserberg vor den Kapverdischen Inseln im östlichen tropischen Atlantik. Die Art Megastygarctides hekatae besitzt Genitalstacheln – ein bei Bärtierchen sehr seltenes Merkmal. Die zweite Art, Parastygarctus potercha, ist besonders klein und hat weniger Krallen als verwandte Arten. Weltweit sind damit mehr als 1.500 Bärtierchenarten bekannt.",
+    "why_positive": "Die Entdeckung zeigt, wie viel unbekannte Vielfalt die Meere noch bergen – und dass geduldige Forschung an alten Proben neues Wissen über das Leben auf der Erde zutage fördert.",
+    "category": "Tiere & Natur",
+    "category_key": "tiere",
+    "source_name": "tagesspiegel.de",
+    "source_url": "https://www.tagesspiegel.de/wissen/tiere-winzige-meeresbewohner-neue-bartierchenarten-entdeckt-16308936.html",
+    "published_at": "2026-11-20",
+    "added_at": "2026-11-22"
   },
   "archive": [
+    {
+      "date": "2026-11-21",
+      "headline": "Internationaler Kinderfriedenspreis für 17-jährigen Klimaaktivisten aus Kolumbien",
+      "summary": "Der 17-jährige Kolumbianer Francisco Javier Vera Manzanares hat in Den Haag den Internationalen Kinderfriedenspreis erhalten. Die niederländische Stiftung KidsRights würdigt damit, dass er Kinderrechte in den Mittelpunkt des Einsatzes für Klimagerechtigkeit stellt; er wurde aus 280 Nominierungen aus 57 Ländern ausgewählt. Überreicht wurde der Preis im Friedenspalast von Friedensnobelpreisträger Kailash Satyarthi. Vera begann 2019 mit neun Jahren, nachdem Waldbrände den Amazonas verwüstet hatten, und sprach im selben Jahr als erstes Kind vor dem kolumbianischen Kongress. Seine Bewegung „Guardianes por la Vida“ zählt über 1400 Kinder und Jugendliche und hat mehr als 5000 Bäume in Lateinamerika und Europa gepflanzt.",
+      "why_positive": "Der Preis macht sichtbar, wie viel junge Menschen friedlich für Umwelt und Zukunft bewegen können. Er stärkt einem Jugendlichen den Rücken, der wegen Drohungen ins Exil nach Spanien gehen musste, und gibt seinem Anliegen eine internationale Bühne.",
+      "category": "Gesellschaft",
+      "category_key": "gesellschaft",
+      "source_name": "nos.nl",
+      "source_url": "https://nos.nl/artikel/2640199-kindervredesprijs-voor-gevluchte-colombiaanse-klimaatactivist-francisco-vera-17",
+      "published_at": "2026-11-19",
+      "added_at": "2026-11-21"
+    },
     {
       "date": "2026-11-20",
       "headline": "Licht statt Strom: Karlsruher Team erhält Deutschen Zukunftspreis 2026",
