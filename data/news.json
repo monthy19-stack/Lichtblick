@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-22"
+    "updated_at": "2026-11-23"
   },
   "current": {
-    "date": "2026-11-22",
-    "headline": "Zwei neue Bärtierchenarten an einem Unterwasserberg im Atlantik entdeckt",
-    "summary": "Forschende des Instituts Senckenberg am Meer in Wilhelmshaven haben zwei bislang unbekannte Bärtierchenarten beschrieben. Gefunden wurden die winzigen, gepanzerten Tiere in Sedimentproben vom Senghor-Seamount, einem Unterwasserberg vor den Kapverdischen Inseln im östlichen tropischen Atlantik. Die Art Megastygarctides hekatae besitzt Genitalstacheln – ein bei Bärtierchen sehr seltenes Merkmal. Die zweite Art, Parastygarctus potercha, ist besonders klein und hat weniger Krallen als verwandte Arten. Weltweit sind damit mehr als 1.500 Bärtierchenarten bekannt.",
-    "why_positive": "Die Entdeckung zeigt, wie viel unbekannte Vielfalt die Meere noch bergen – und dass geduldige Forschung an alten Proben neues Wissen über das Leben auf der Erde zutage fördert.",
-    "category": "Tiere & Natur",
-    "category_key": "tiere",
-    "source_name": "tagesspiegel.de",
-    "source_url": "https://www.tagesspiegel.de/wissen/tiere-winzige-meeresbewohner-neue-bartierchenarten-entdeckt-16308936.html",
-    "published_at": "2026-11-20",
-    "added_at": "2026-11-22"
+    "date": "2026-11-23",
+    "headline": "Nach acht Jahren Reise: Raumsonde BepiColombo erreicht den Merkur",
+    "summary": "Die europäisch-japanische Raumsonde BepiColombo ist nach acht Jahren Flug am Merkur angekommen und schwenkt in eine hohe Umlaufbahn um den sonnennächsten Planeten ein. Auf dem Weg dorthin waren zahlreiche Manöver nötig, darunter sechs Vorbeiflüge am Merkur. In den kommenden Wochen muss die Sonde mehrmals bremsen, im Dezember wird der japanische Orbiter „Mio“ vom europäischen „MPO“ getrennt. Damit umkreisen erstmals zwei Raumsonden gleichzeitig den Merkur; erste wissenschaftliche Daten sind für April geplant. Österreichische Forschende sind beteiligt: Das Institut für Weltraumforschung der Österreichischen Akademie der Wissenschaften leitet das Magnetometer an Bord von „Mio“, das das rätselhafte Magnetfeld des Planeten vermessen soll.",
+    "why_positive": "Der Ankunft gehen Jahre geduldiger internationaler Zusammenarbeit voraus – nun kann die Mission beginnen, die Geheimnisse des kleinsten Planeten unseres Sonnensystems zu entschlüsseln.",
+    "category": "Wissenschaft",
+    "category_key": "wissenschaft",
+    "source_name": "science.orf.at",
+    "source_url": "https://science.orf.at/stories/3238288/",
+    "published_at": "2026-11-21",
+    "added_at": "2026-11-23"
   },
   "archive": [
+    {
+      "date": "2026-11-22",
+      "headline": "Zwei neue Bärtierchenarten an einem Unterwasserberg im Atlantik entdeckt",
+      "summary": "Forschende des Instituts Senckenberg am Meer in Wilhelmshaven haben zwei bislang unbekannte Bärtierchenarten beschrieben. Gefunden wurden die winzigen, gepanzerten Tiere in Sedimentproben vom Senghor-Seamount, einem Unterwasserberg vor den Kapverdischen Inseln im östlichen tropischen Atlantik. Die Art Megastygarctides hekatae besitzt Genitalstacheln – ein bei Bärtierchen sehr seltenes Merkmal. Die zweite Art, Parastygarctus potercha, ist besonders klein und hat weniger Krallen als verwandte Arten. Weltweit sind damit mehr als 1.500 Bärtierchenarten bekannt.",
+      "why_positive": "Die Entdeckung zeigt, wie viel unbekannte Vielfalt die Meere noch bergen – und dass geduldige Forschung an alten Proben neues Wissen über das Leben auf der Erde zutage fördert.",
+      "category": "Tiere & Natur",
+      "category_key": "tiere",
+      "source_name": "tagesspiegel.de",
+      "source_url": "https://www.tagesspiegel.de/wissen/tiere-winzige-meeresbewohner-neue-bartierchenarten-entdeckt-16308936.html",
+      "published_at": "2026-11-20",
+      "added_at": "2026-11-22"
+    },
     {
       "date": "2026-11-21",
       "headline": "Internationaler Kinderfriedenspreis für 17-jährigen Klimaaktivisten aus Kolumbien",
