@@ -18,16 +18,24 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  # Upload und Deploy laufen in getrennten Jobs. Im selben Job findet
+  # deploy-pages das gerade hochgeladene Artefakt manchmal nicht
+  # ("No artifacts named github-pages"), siehe actions/deploy-pages#451.
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
         uses: actions/deploy-pages@v4
