@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-23"
+    "updated_at": "2026-11-24"
   },
   "current": {
-    "date": "2026-11-23",
-    "headline": "Nach acht Jahren Reise: Raumsonde BepiColombo erreicht den Merkur",
-    "summary": "Die europäisch-japanische Raumsonde BepiColombo ist nach acht Jahren Flug am Merkur angekommen und schwenkt in eine hohe Umlaufbahn um den sonnennächsten Planeten ein. Auf dem Weg dorthin waren zahlreiche Manöver nötig, darunter sechs Vorbeiflüge am Merkur. In den kommenden Wochen muss die Sonde mehrmals bremsen, im Dezember wird der japanische Orbiter „Mio“ vom europäischen „MPO“ getrennt. Damit umkreisen erstmals zwei Raumsonden gleichzeitig den Merkur; erste wissenschaftliche Daten sind für April geplant. Österreichische Forschende sind beteiligt: Das Institut für Weltraumforschung der Österreichischen Akademie der Wissenschaften leitet das Magnetometer an Bord von „Mio“, das das rätselhafte Magnetfeld des Planeten vermessen soll.",
-    "why_positive": "Der Ankunft gehen Jahre geduldiger internationaler Zusammenarbeit voraus – nun kann die Mission beginnen, die Geheimnisse des kleinsten Planeten unseres Sonnensystems zu entschlüsseln.",
-    "category": "Wissenschaft",
-    "category_key": "wissenschaft",
+    "date": "2026-11-24",
+    "headline": "Saubere Luft wirkt: Zahl der Feinstaub-Todesfälle in der EU mehr als halbiert",
+    "summary": "Die Zahl der vorzeitigen Todesfälle durch Feinstaub ist in der EU deutlich gesunken. Laut neuen Daten der EU-Umweltagentur EEA ging sie zwischen 2005 und 2024 um 57,2 Prozent zurück. Damit ist das EU-Ziel, diese Todesfälle bis 2030 um 55 Prozent zu senken, nach aktuellem Stand bereits erreicht. Als Gründe nennt die EEA Maßnahmen auf internationaler, nationaler und lokaler Ebene, durch die Emissionen aus Heizungen, Verkehr und Industrie verringert wurden. Dennoch werden für 2024 noch rund 222.000 vorzeitige Todesfälle mit Feinstaub in Verbindung gebracht – bis 2050 soll die Luftverschmutzung auf ein nicht mehr gesundheitsschädliches Niveau sinken.",
+    "why_positive": "Die Zahlen zeigen, dass Luftreinhaltung messbar Leben rettet – Klimaschutz- und Umweltmaßnahmen zahlen sich unmittelbar für die Gesundheit vieler Menschen aus.",
+    "category": "Umwelt & Klima",
+    "category_key": "umwelt",
     "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3238288/",
-    "published_at": "2026-11-21",
-    "added_at": "2026-11-23"
+    "source_url": "https://science.orf.at/stories/3238325/",
+    "published_at": "2026-11-23",
+    "added_at": "2026-11-24"
   },
   "archive": [
+    {
+      "date": "2026-11-23",
+      "headline": "Nach acht Jahren Reise: Raumsonde BepiColombo erreicht den Merkur",
+      "summary": "Die europäisch-japanische Raumsonde BepiColombo ist nach acht Jahren Flug am Merkur angekommen und schwenkt in eine hohe Umlaufbahn um den sonnennächsten Planeten ein. Auf dem Weg dorthin waren zahlreiche Manöver nötig, darunter sechs Vorbeiflüge am Merkur. In den kommenden Wochen muss die Sonde mehrmals bremsen, im Dezember wird der japanische Orbiter „Mio“ vom europäischen „MPO“ getrennt. Damit umkreisen erstmals zwei Raumsonden gleichzeitig den Merkur; erste wissenschaftliche Daten sind für April geplant. Österreichische Forschende sind beteiligt: Das Institut für Weltraumforschung der Österreichischen Akademie der Wissenschaften leitet das Magnetometer an Bord von „Mio“, das das rätselhafte Magnetfeld des Planeten vermessen soll.",
+      "why_positive": "Der Ankunft gehen Jahre geduldiger internationaler Zusammenarbeit voraus – nun kann die Mission beginnen, die Geheimnisse des kleinsten Planeten unseres Sonnensystems zu entschlüsseln.",
+      "category": "Wissenschaft",
+      "category_key": "wissenschaft",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3238288/",
+      "published_at": "2026-11-21",
+      "added_at": "2026-11-23"
+    },
     {
       "date": "2026-11-22",
       "headline": "Zwei neue Bärtierchenarten an einem Unterwasserberg im Atlantik entdeckt",
