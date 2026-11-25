@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-24"
+    "updated_at": "2026-11-25"
   },
   "current": {
-    "date": "2026-11-24",
-    "headline": "Saubere Luft wirkt: Zahl der Feinstaub-Todesfälle in der EU mehr als halbiert",
-    "summary": "Die Zahl der vorzeitigen Todesfälle durch Feinstaub ist in der EU deutlich gesunken. Laut neuen Daten der EU-Umweltagentur EEA ging sie zwischen 2005 und 2024 um 57,2 Prozent zurück. Damit ist das EU-Ziel, diese Todesfälle bis 2030 um 55 Prozent zu senken, nach aktuellem Stand bereits erreicht. Als Gründe nennt die EEA Maßnahmen auf internationaler, nationaler und lokaler Ebene, durch die Emissionen aus Heizungen, Verkehr und Industrie verringert wurden. Dennoch werden für 2024 noch rund 222.000 vorzeitige Todesfälle mit Feinstaub in Verbindung gebracht – bis 2050 soll die Luftverschmutzung auf ein nicht mehr gesundheitsschädliches Niveau sinken.",
-    "why_positive": "Die Zahlen zeigen, dass Luftreinhaltung messbar Leben rettet – Klimaschutz- und Umweltmaßnahmen zahlen sich unmittelbar für die Gesundheit vieler Menschen aus.",
-    "category": "Umwelt & Klima",
-    "category_key": "umwelt",
+    "date": "2026-11-25",
+    "headline": "K.-o.-Tropfen: Neue Methode verlängert Nachweis auf bis zu 48 Stunden",
+    "summary": "K.-o.-Tropfen mit dem Wirkstoff GHB sind im Blut bisher nur rund sechs, im Urin etwa zwölf Stunden nachweisbar – für viele Betroffene zu kurz. Forschende der Universität Zürich und der Universität Aarhus setzen deshalb auf einen Biomarker: die GHB-Pentose, eine Verbindung von GHB mit einem Zucker. In einer Placebo-kontrollierten Studie mit 30 Freiwilligen war sie bei allen, die GHB erhalten hatten, nach 48 Stunden noch im Blut nachweisbar; die Zürcher Gruppe bestätigte den Marker zudem an mehr als 2.400 Urinproben. Der Freiburger Toxikologe Volker Auwärter spricht von einem „richtigen Durchbruch“ und will das Verfahren möglichst schnell bei Verdachtsfällen einsetzen.",
+    "why_positive": "Betroffene gewinnen deutlich mehr Zeit, um nach dem Aufwachen Beweise sichern zu lassen – das stärkt ihre Chancen, dass Taten aufgeklärt werden.",
+    "category": "Gesundheit",
+    "category_key": "gesundheit",
     "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3238325/",
+    "source_url": "https://science.orf.at/stories/3238317/",
     "published_at": "2026-11-23",
-    "added_at": "2026-11-24"
+    "added_at": "2026-11-25"
   },
   "archive": [
+    {
+      "date": "2026-11-24",
+      "headline": "Saubere Luft wirkt: Zahl der Feinstaub-Todesfälle in der EU mehr als halbiert",
+      "summary": "Die Zahl der vorzeitigen Todesfälle durch Feinstaub ist in der EU deutlich gesunken. Laut neuen Daten der EU-Umweltagentur EEA ging sie zwischen 2005 und 2024 um 57,2 Prozent zurück. Damit ist das EU-Ziel, diese Todesfälle bis 2030 um 55 Prozent zu senken, nach aktuellem Stand bereits erreicht. Als Gründe nennt die EEA Maßnahmen auf internationaler, nationaler und lokaler Ebene, durch die Emissionen aus Heizungen, Verkehr und Industrie verringert wurden. Dennoch werden für 2024 noch rund 222.000 vorzeitige Todesfälle mit Feinstaub in Verbindung gebracht – bis 2050 soll die Luftverschmutzung auf ein nicht mehr gesundheitsschädliches Niveau sinken.",
+      "why_positive": "Die Zahlen zeigen, dass Luftreinhaltung messbar Leben rettet – Klimaschutz- und Umweltmaßnahmen zahlen sich unmittelbar für die Gesundheit vieler Menschen aus.",
+      "category": "Umwelt & Klima",
+      "category_key": "umwelt",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3238325/",
+      "published_at": "2026-11-23",
+      "added_at": "2026-11-24"
+    },
     {
       "date": "2026-11-23",
       "headline": "Nach acht Jahren Reise: Raumsonde BepiColombo erreicht den Merkur",
