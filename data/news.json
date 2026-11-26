@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-25"
+    "updated_at": "2026-11-26"
   },
   "current": {
-    "date": "2026-11-25",
-    "headline": "K.-o.-Tropfen: Neue Methode verlängert Nachweis auf bis zu 48 Stunden",
-    "summary": "K.-o.-Tropfen mit dem Wirkstoff GHB sind im Blut bisher nur rund sechs, im Urin etwa zwölf Stunden nachweisbar – für viele Betroffene zu kurz. Forschende der Universität Zürich und der Universität Aarhus setzen deshalb auf einen Biomarker: die GHB-Pentose, eine Verbindung von GHB mit einem Zucker. In einer Placebo-kontrollierten Studie mit 30 Freiwilligen war sie bei allen, die GHB erhalten hatten, nach 48 Stunden noch im Blut nachweisbar; die Zürcher Gruppe bestätigte den Marker zudem an mehr als 2.400 Urinproben. Der Freiburger Toxikologe Volker Auwärter spricht von einem „richtigen Durchbruch“ und will das Verfahren möglichst schnell bei Verdachtsfällen einsetzen.",
-    "why_positive": "Betroffene gewinnen deutlich mehr Zeit, um nach dem Aufwachen Beweise sichern zu lassen – das stärkt ihre Chancen, dass Taten aufgeklärt werden.",
-    "category": "Gesundheit",
-    "category_key": "gesundheit",
+    "date": "2026-11-26",
+    "headline": "Asteroidenabwehr wirkt: Raumsonde Hera zeigt die Folgen des DART-Einschlags auf Dimorphos",
+    "summary": "Die europäische Raumsonde Hera hat erste hochauflösende Bilder vom Asteroiden Dimorphos geliefert, den die NASA-Sonde DART im September 2022 gezielt gerammt hatte. Der Einschlag hat den rund 150 Meter großen Mond des Asteroiden Didymos deutlich verändert: Auf der getroffenen Seite klafft ein Krater von der Größe eines Sportstadions, der Asteroid wirkt abgeflacht und taumelt. Seine Umlaufzeit um Didymos verkürzte sich um rund 33 Minuten auf 11 Stunden und 23 Minuten. Wie effizient die Ablenkung genau war, soll Hera in den kommenden Monaten klären, indem sie die Masse des Asteroiden bestimmt.",
+    "why_positive": "Der Test zeigt, dass sich ein Asteroid durch einen gezielten Aufprall messbar von seiner Bahn bringen lässt – die Menschheit ist Gefahren aus dem All damit nicht mehr hilflos ausgeliefert.",
+    "category": "Wissenschaft",
+    "category_key": "wissenschaft",
     "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3238317/",
-    "published_at": "2026-11-23",
-    "added_at": "2026-11-25"
+    "source_url": "https://science.orf.at/stories/3238362/",
+    "published_at": "2026-11-25",
+    "added_at": "2026-11-26"
   },
   "archive": [
+    {
+      "date": "2026-11-25",
+      "headline": "K.-o.-Tropfen: Neue Methode verlängert Nachweis auf bis zu 48 Stunden",
+      "summary": "K.-o.-Tropfen mit dem Wirkstoff GHB sind im Blut bisher nur rund sechs, im Urin etwa zwölf Stunden nachweisbar – für viele Betroffene zu kurz. Forschende der Universität Zürich und der Universität Aarhus setzen deshalb auf einen Biomarker: die GHB-Pentose, eine Verbindung von GHB mit einem Zucker. In einer Placebo-kontrollierten Studie mit 30 Freiwilligen war sie bei allen, die GHB erhalten hatten, nach 48 Stunden noch im Blut nachweisbar; die Zürcher Gruppe bestätigte den Marker zudem an mehr als 2.400 Urinproben. Der Freiburger Toxikologe Volker Auwärter spricht von einem „richtigen Durchbruch“ und will das Verfahren möglichst schnell bei Verdachtsfällen einsetzen.",
+      "why_positive": "Betroffene gewinnen deutlich mehr Zeit, um nach dem Aufwachen Beweise sichern zu lassen – das stärkt ihre Chancen, dass Taten aufgeklärt werden.",
+      "category": "Gesundheit",
+      "category_key": "gesundheit",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3238317/",
+      "published_at": "2026-11-23",
+      "added_at": "2026-11-25"
+    },
     {
       "date": "2026-11-24",
       "headline": "Saubere Luft wirkt: Zahl der Feinstaub-Todesfälle in der EU mehr als halbiert",
