@@ -2,21 +2,33 @@
   "site": {
     "name": "Lichtblick",
     "tagline": "Die schönste Nachricht des Tages",
-    "updated_at": "2026-11-26"
+    "updated_at": "2026-11-27"
   },
   "current": {
-    "date": "2026-11-26",
-    "headline": "Asteroidenabwehr wirkt: Raumsonde Hera zeigt die Folgen des DART-Einschlags auf Dimorphos",
-    "summary": "Die europäische Raumsonde Hera hat erste hochauflösende Bilder vom Asteroiden Dimorphos geliefert, den die NASA-Sonde DART im September 2022 gezielt gerammt hatte. Der Einschlag hat den rund 150 Meter großen Mond des Asteroiden Didymos deutlich verändert: Auf der getroffenen Seite klafft ein Krater von der Größe eines Sportstadions, der Asteroid wirkt abgeflacht und taumelt. Seine Umlaufzeit um Didymos verkürzte sich um rund 33 Minuten auf 11 Stunden und 23 Minuten. Wie effizient die Ablenkung genau war, soll Hera in den kommenden Monaten klären, indem sie die Masse des Asteroiden bestimmt.",
-    "why_positive": "Der Test zeigt, dass sich ein Asteroid durch einen gezielten Aufprall messbar von seiner Bahn bringen lässt – die Menschheit ist Gefahren aus dem All damit nicht mehr hilflos ausgeliefert.",
-    "category": "Wissenschaft",
-    "category_key": "wissenschaft",
-    "source_name": "science.orf.at",
-    "source_url": "https://science.orf.at/stories/3238362/",
-    "published_at": "2026-11-25",
-    "added_at": "2026-11-26"
+    "date": "2026-11-27",
+    "headline": "Schweizer Kabarettistin Patti Basler erhält den Deutschen Kleinkunstpreis 2027",
+    "summary": "Die Satirikerin, Autorin und Kabarettistin Patti Basler aus dem Aargau wird mit dem 55. Deutschen Kleinkunstpreis 2027 in der Sparte Kabarett ausgezeichnet. Der Preis des Mainzer Kleinkunsttheaters Unterhaus wird in sechs Sparten vergeben. Die Jury würdigt, dass Basler das Genre lebendig hält – sie sei eine satirische Instanz, der man zuhört, wenn sie sich zu Wort meldet. Ebenfalls geehrt werden unter anderem Toxische Pommes, das Duo Simon & Jan, Fil, Alex Stoldt und Rainald Grebe. Die Verleihung findet im März 2027 in Mainz statt.",
+    "why_positive": "Die Auszeichnung zeigt, wie lebendig die Kleinkunst im deutschsprachigen Raum ist, und würdigt eine Künstlerin, die mit Witz und Haltung zum Nachdenken anregt.",
+    "category": "Kultur",
+    "category_key": "kultur",
+    "source_name": "srf.ch",
+    "source_url": "https://www.srf.ch/kultur/buehne/schweizer-kabarettistin-patti-basler-gewinnt-den-deutschen-kleinkunstpreis",
+    "published_at": "2026-11-26",
+    "added_at": "2026-11-27"
   },
   "archive": [
+    {
+      "date": "2026-11-26",
+      "headline": "Asteroidenabwehr wirkt: Raumsonde Hera zeigt die Folgen des DART-Einschlags auf Dimorphos",
+      "summary": "Die europäische Raumsonde Hera hat erste hochauflösende Bilder vom Asteroiden Dimorphos geliefert, den die NASA-Sonde DART im September 2022 gezielt gerammt hatte. Der Einschlag hat den rund 150 Meter großen Mond des Asteroiden Didymos deutlich verändert: Auf der getroffenen Seite klafft ein Krater von der Größe eines Sportstadions, der Asteroid wirkt abgeflacht und taumelt. Seine Umlaufzeit um Didymos verkürzte sich um rund 33 Minuten auf 11 Stunden und 23 Minuten. Wie effizient die Ablenkung genau war, soll Hera in den kommenden Monaten klären, indem sie die Masse des Asteroiden bestimmt.",
+      "why_positive": "Der Test zeigt, dass sich ein Asteroid durch einen gezielten Aufprall messbar von seiner Bahn bringen lässt – die Menschheit ist Gefahren aus dem All damit nicht mehr hilflos ausgeliefert.",
+      "category": "Wissenschaft",
+      "category_key": "wissenschaft",
+      "source_name": "science.orf.at",
+      "source_url": "https://science.orf.at/stories/3238362/",
+      "published_at": "2026-11-25",
+      "added_at": "2026-11-26"
+    },
     {
       "date": "2026-11-25",
       "headline": "K.-o.-Tropfen: Neue Methode verlängert Nachweis auf bis zu 48 Stunden",
